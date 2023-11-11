@@ -1,0 +1,34 @@
+# [AKSDB] Reminder: November Meeting Tomorrow (Friday, 11/10) + Agenda [09NOV2023]
+
+Hi Everyone -
+
+A reminder that we will be holding our monthly project check-in during our normal scheduled time tomorrow, Friday, November 10th (Zoom link below if you don't have it). 
+
+Time (Friday, 11/10): 
+9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie)
+11AM Mountain (Colby)
+12PM Central (Nic & Irf & Josh)
+1PM Eastern (Sabine)
+
+Agenda:
+1. New group members: Josh Minai (DOE - Argonne National Lab) + Potential invitee w/ USGS
+2. Updates on Action Items from October
+3. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE.
+4. Presentation/Discussion of Draft Data Completeness, Geospatial Data Quality, and Soil Classification Quality Rankings, which you can find in the Deliverable 1 Metadata
+5. Presentation/Discussion of Current Field Metadata Controlled Vocabulary/Taxonomy 
+6. Presentation/Discussion of Draft Table of Covariates (currently being modified from original version from Colby and Matt).
+7. Any other discussion or related business - time remaining
+
+Zoom Link (in case you don't have it):
+Nic Jelinski is inviting you to a scheduled Zoom meeting.
+Topic: ASDB/AK 2026 August Team Meeting
+Time: November 10, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)
+
+Join Zoom Meeting
+https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09
+
+Meeting ID: 957 0806 2752
+Passcode: MLwpf9
+
+Respectfully,
+Nic

@@ -1,0 +1,87 @@
+# AKSDB Team Meeting Minutes 10NOV2023
+
+Attendees: Nic Jelinski, Josh Minai, Irfan Ainuddin, Dave D’Amore
+
+## Opening
+Nic - Argonne Trip Summary
+Neil Pastick, has a pos-doc mapping peat lands in alaska, nic will reach out to him to see if they will join
+Nic invited Josh because his work is very closely related to AKSDB work
+
+## Introductions w/ new member Josh Minai - DSM Skillset from Purdue
+Working at Argonne National lab with Julie Jastrow and Roser Matamala, mapping carbon stocks and C:N ratio in alaska. Initially started with a small transect to map C and N stocks. Working on higher spatial resolution map (higher than 60m resolution). Josh is looking for higher res data. Cant map stocks using depth intervals because of variability in Perma/cryoturbated soils.
+
+Josh - Ummakant? / Mishra’s 2014 Carbonstock predictions from 2014, 
+
+Mapping carbonstocks to align with Earth System model. They worked on carbon stocks to 1m at 60m resolution. Conducted second stocks maps looking at co-variates at a coarser spatial resolution,
+
+## Dave Re-Introduction - 
+	Research soil scientist in PNW research station in Juno in Alaska, PhD in Fairbanks. They use NRCS database but also curate their own pedon data thats not into the NRCS database, feel it will integrate with our project well. They have ~50 pedon data in peatlands which is much greater than NRCS available data atm.
+	Have ensemble model paper coming out soon on predicting carbon stocks soon. Comprehensive model for all western us states alaska & hawaii, and may include some canadian pedon data
+
+Nic follow-up questions for Dave 
+Upcoming paper is about evaluating error in point based carbon stocks?
+D - How good is any one model doing, if we combine all of it and aggregate error, to determine a mean, allow for model comparison against the aggregate.
+D - Not necessarily better or worse than individual model but allows for comparison
+D - Interested in C/N ration
+J - CN ratio, difficult with co-variates…. Also map C and N individually then compare C/N ratio VS mapping CN directly
+What was the input datasets for the paper in review?
+SSURGO, G-SOCK??(sp), WOSIS, Northern Circumpolar, ? , ?, McNicke?, Statsgo, canadian soil carbon,
+ N - State effort in MN, starting on lowland conifer and peat predictions, Randy Kolka mentioned a larger program is that related to Dave’s project?
+D - no? D’s project is specific to SE alaska, but tries to collect as much data as possible
+D - Grant Domke (northern usfs research station) – Improve FIA soil approach, switch is rudimentary… 
+N - Josh, do you know the datasets that ummakant used that were alaska databases that went into his model?
+J - NRCS …. Not as much access to data was a challenge, but potentially got data from russians. J has data that is X,Y and SOC stocks, depth of active layer – no metadata, julie may know others with w/ original data.
+J - Access to more data and share data w/ others…. Can share what he’s done next time, has created 30m (GSIM? IFSAR?)
+J - 5m would be too many pixels to predict on
+N - goal is carbon and … pointers to different datasets
+This project raw data intact and tagging metadata tags
+Controlled vocabular taxonomy, with a set of tags for each field in metadata sets, and we will use scripts to query based on tags. Will maintain a raw dataset that points back to repo/source and improving metadata. Harmonizing data will be a secondary step
+Ideally, the datasets will be useful in future applications as well
+D - NSF grant w/ canadian and us to harmonize data so a good start in crossing political boundaries, a working group of people has been established
+D - better to centralize in a repository at AKSDB vs handing off to individual researchers/groups which is good for transparency
+D - IFSAR in moist wet mountainous steep terrain is difficult
+Testing across steep slopes you start seeing “bathtubs” from clearcuts, artifacts from canopy heights.
+Pushing towards lidar
+Careful where to apply the IFSAR
+J - GDM 34m…. Seems to be ok “Nic gives you candy before the diagnosis”
+J - thinking about going coarser for CN prediction data
+N - going to go through points
+
+## October Meeting Recap and Action Items
+Met in october and talked about GEMs platform and workflow
+Update on datasets - Matt McCander working on engaging on 2 big ticket datasets - Conoco Phillips and Hillcorp datasets.
+Collected on northslope, good spatial coverage and setup data sharing agreements.
+BLM data, w/ Rocky & Tim as collaborators, ACC UA-Anchorage
+
+## Overview of new items on GitHub repo and organization
+Github – metadata & workflow for entire project overview
+Data completeness quality ranking
+
+### Data completeness, geospatial data quality, and classification quality rankings
+Geospatial data quality rankings (building from Colby)
+Some breakouts by decade due to GPS accuracy in GPS over time
+Soil Clasisfication quality rankings overview
+A goal of project is to create soil class maps
+Controlled vocabularies available on Github
+Overview of Hierarchical metadata tags
+Hierarchical allows for specificity or ambiguity in data querying from primary AKSDB dataset
+Not changing header data of original datasets, the harmonizing will be based on tags
+Co-Authorship agreement up on github as well
+Table of Co-variates
+Agreement goals are to aggregate data and create soil maps as first step, but more applications can come out of this aggregated data than our deliverables
+
+### Action items
+Prepare small USFS dataset (Dave peat depth) for integration in prep for pulling in larger USFS datasets
+D - Working on how to integrate their database with ours
+N - Best thing is to have a separate CSV for metadata when you deliver
+Irf will send an example light metadata csv to Dave
+
+
+
+
+
+
+
+
+Action Items
+IRF - Send Dave a metadata example / template from the ABR data

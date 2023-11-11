@@ -1,0 +1,49 @@
+# AKSDB Team Meeting Minutes 13JAN2023
+
+## Agenda and Minutes: 
+
+### Updates on action items from previous meeting 
+1. Need to ensure Sabine and Colby have access to GitHub
+2. Everyone set up as users in our team on the GEMS platform, Alaska Database Team
+
+### GitHub Site and GEMS Platform Overview:  
+1. **Tour of GitHub organization site structure**
+      - GitHub site access set as public, but repositories are private: https://github.com/alaska-soil-data-bank
+      - Currently 2 repositories (Admin: for meeting minutes and project-metadata: for metadata documentation and overall structure)
+      - Project Metadata repo is a growing document published as a GitHub Pages website
+    - Major action items: 
+      - Need to get Sabine and Colby set up on our GitHub repo. 
+
+2. **GEMS Platform Overview**
+      - Nic used minimum dataset example to show how GEMS platform functions. Uploaded csv and demonstrate ‘Explore Data’ . Irf will be working on data wrangling. GEMS lagging out during demonstration.
+      - Key-field Aggregation 
+      - Post-Harmonization,  Scripts run on GEMS servers and outputs working dataset.
+      - Workspace Data has permission control for external and internal project 
+      - Adding Data to GEMS → Identifiable Fields, we can enter field meta data for  ingested data sets and use the meta data tag instead  of original data set column value
+      - Matt question: Managing different units for similar parameters
+      - Sabine question: Handling different methodology for similar measurements
+      - Colby response: We may have more morphological data than lab measurements
+      - Nic - Showing methods and codes draft for capturing method metadata within code label labeling system
+      - Will be important to have a controlled vocabulary 
+      - Geospatial Fuzzing - Can choose which fields to fuzz, but maintains clear data flow documentation
+      - 12:42 - Colby Question – Columns that exist in a one data set that is not available in all data sets.  
+      - Nic – Response: Original data remains untouched but the harmonized data would contain NA values.
+      - Established Ontologies are available to utilize “ICASA, EnvO”
+      - Sabine Response: great to have them but maybe better to be limited in variation
+      - 12:48 - Data Set  Metadata Population, created JSON metadata set for each database.
+      - Sabine Question: Where do we define minimum standards for data quality?
+      - Colby  Question: What if we get a small limited dataset? 
+      - Nic Response: We will probably have to develop this as a group, hoping to use github discussions / documentation to build out the documentation page.
+      - Proposal Issue - Tag Datasets with geospatial data quality, and maybe a few other parameters. Where did coords come from and what is the precision of coordinates? Matt: Recent data has estimates to meters of accuracy reported by GPS. 
+      - Matt: Define Default units for each row, then define  a translation factor.
+
+    - Major action items: 
+      - Irf & Nic getting a preliminary draft with minimum standards
+      - Colby share draft scheme for tagging dataset quality… “gps pre 2000, gps post 2000, from ortho photos..”
+
+3. **Looking Forward: Future Meetings**
+      - FEB: Discuss minimum standards requirements 
+      - MARCH: Potentially invite GEMS and NRCS to meeting
+      - Matt - Questions about previously submitted data sets. Pretty expansive dataset, not all of it maybe needs to be ingested, seeking feedback regarding data.
+      - TODO: Include Sue Ives on followup emails
+      - Deliverable 3: Katmai Segmentation Analysis – ABR is leading this work

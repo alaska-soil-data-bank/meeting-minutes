@@ -1,0 +1,19 @@
+# AKSDB Team Meeting Minutes 12MAY2023 [12MAY2023]
+
+## Agenda and Minutes (Attendees: Nic, Sue and Irf): 
+
+### Updates on action items from previous meeting 
+1. Nic created Project Table on GitHub in place of spreadsheet to track data acquisition progress
+2. Nic had discussion with Dave D'Amore and Jacquie Foss re: USFS data
+
+## Dataset acquisition and curation progress 
+1. **Discussion of ABR Shell dataset with Sue**
+      - Sue will deliver
+3. **TODOs**
+    - Major action items: 
+      - Irf will continue to get acquired datasets on GEMS platform and generate metadata
+      - Irf/Nic need to work on preliminary data dictionary/ontology
+      - Nic needs to complete draft of data sharing/data use and co-authorship agreements.
+
+### Looking Forward: Future Meetings
+      - Will continue to hold monthly meetings, same timeslot through the growing season - people will join as they can throughout the summer.

@@ -1,0 +1,28 @@
+# Follow-Up and Action Items: AKSB Meeting #2 - Three Things! [15DDEC2022]
+
+Hi Everyone -
+
+Thank you for discussion yesterday - a few follow ups:
+
+1. Minutes now posted. I added the minutes of yesterdays discussion to our running minutes document in the Box folder: https://umn.box.com/s/xjp7icv7ki3jjdqfmeuwrlrjwe8bwmct. All of my substantive group emails will now start with [AKSDB 00X] (with increasing numbers in sequence) so that I can easily keep a running record of important communications.
+
+2. Action items. The following action items should be completed before the end of December if possible:
+  - Everyone - 
+    - please sign up as a GEMS Open user here: https://gems.agroinformatics.org/webui. Click on the "Sign up to GEMS Open" box and follow instructions (Colby already did this as a test case with his OrchidID (other options as well) and it worked. Once you are approved users I can pull you into my GEMS "Team" which is specific to our project. Send me an email once you have done this so I can look to see if I can see you as a user in the GEMS system.
+
+  - Sabine - 
+    - please send me any metadata documentation you have related to the Florida Soil Characterization Database and/or data handling conventions.
+
+  - Matt -  
+    - please send me any metadata documentation you have related to the ABR legacy database and/or data handling conventions; 
+    - please generate a "snippet" or small example dataset that would be representative of structure/fields for the ABR database and send to me. For now, csv will be the best format - can include project and plot data + metadata as separate files (and also soil horizon level as a separate file *if* that exists for some projects). 
+
+3. January meeting. For our January meeting, I will go over data ingestion, metadata editing/creation in GEMS using two example datasets (Chien-Lu Ping's UAF soil characterization database + ABR legacy database snippet from Matt). The GEMS interface and workspace continue to advance significantly and I think the existing and new functionality will serve our needs quite well. Specifically:
+    - There are excellent tools for appending field metadata - including fuzzy matching based on data types and column headings. 
+    - We can set up our own project specific ontology/controlled vocabulary in GEMS for field metadata - I can work with GEMS engineers to do this.
+    - The GEMS platform tools for generating consistent metadata in JSON format for each dataset are well advanced and easy to use.
+    - The GEMS workspace allows us to script in Python or R. I am going to default to R since that is what I use the most and also what we will be using for the DSM work (Deliverable 2).
+    - Although there are excellent tools in GEMS for generating JSON metadata for every dataset, I think we are going to need a more flexible and expansive format for our database level metadata architecture. I may look into setting up a GitHub project for this purpose so that we can have version control and maximum transparency - unless someone has a better suggestion. 
+
+Respectfully,
+Nic

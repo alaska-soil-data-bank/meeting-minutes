@@ -1,0 +1,19 @@
+# AKSDB Team Meeting Minutes 10FEB2023
+
+## Agenda and Minutes: 
+
+### Updates on action items from previous meeting 
+1. Nic and Irfan completed further drafting of project metadata document, which can be found here: https://alaska-soil-data-bank.github.io/project-metadata/
+2. Still need to get Sabine and Colby set up as GitHub users
+3. Sue Ives (ABR) and Michael Sousa (NRCS) will now be joining our team meetings
+
+### Discussion regarding draft project metadata document under development - sections to add in outline, other considerations 
+1. **Review project metadata document draft**
+      - Colby could not attend, sent comments over email: I reviewed the metadata and don’t have any additional comments except that perhaps on the data management plan we might not want to say that this data will be formatted for NASIS ingestion before going into GEMS (section 1.2). I think that the benefit of GEMS is that it will allow the harmonization/standardization of pedon data from disparate sources. Also, we don’t have the ability to add to NASIS.
+      - Nic: we will have access to add new points to NASIS - being granted by Jessica (Alaska Region Soil Survey Lead).
+
+### Review and discussion re: data sharing agreements/memoranda of understanding and authorship guidelines and considerations
+    - Major action items: 
+      - Nic needs to collect and draft both of these
+
+### **Looking Forward: Future Meetings**

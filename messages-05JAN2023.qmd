@@ -1,0 +1,44 @@
+# AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]
+
+Hi Everyone - 
+
+Just a reminder that we will start our recurring 2nd Friday of each month AKSDB project meeting next Friday, January 13th. Irfan Ainuddin (PhD student working with me who will be working on this project and copied here) will be joining us for these meetings this spring. 
+
+## Updates + Action Items:
+1. GEMS Team Created: Everyone was able to successfully register for a GEMS account, and I worked with the GEMS engineers to create a private team and workspace called "Alaska Soil Data Bank". I now added you all as members to that team. 
+**TODO: Everyone - If you [login to GEMS](https://gems.agroinformatics.org/webui) and then go to "Teams" and "My Teams", you should now see it under your list. Let me know if you don't.**
+
+2. Sabine and Matt - thank you for sending me documents/data. Much appreciated!
+
+3. GitHub Organization Created: After some consideration I have decided to move all of our project coordination from Box to a GitHub organization called "[alaska-soil-data-bank](https://github.com/alaska-soil-data-bank)" with multiple repos (currently all set as private) under it. I have migrated everything to GitHub and will no longer be maintaining our Box shared folder. There are several advantages to this:
+- We can publish our project-related documentation and repos publicly once we are ready.
+- We can develop our project metadata as a publicly accessible book published through GitHub Pages - here is a rough example: https://alaska-soil-data-bank.github.io/project-metadata/
+- I can manage meeting minutes and updates as Discussions to create a running archive, and Todos can be managed as Issues. You will see I have already done this for our previous content under "Discussions".
+**TODO: Colby, Sabine and Irf - I found your GitHub profiles and invited you to the organization: let me know if you don't see the invites. Matt - I couldn't find you on GitHub - could you sign up for and account and/or send me your username? Then I will add you to the organization so you can access repos.**
+
+## Time (Friday, 1/13): 
+9AM AK (Matt)
+11AM Mountain (Colby)
+12PM Central (Nic)
+1PM Eastern (Sabine)
+
+## Agenda:
+1. Updates on Action Items from previous meeting ~10 min
+2. Orientation to GitHub Organization and Project Management ~5 min
+3. Orientation to GEMS Platform ~5 min
+4. Example interactions with GEMS UI and Workspace: Chien-Lu Ping's UAF soil characterization database + ABR legacy database snippet from Matt) ~ 30 min
+4. Any other discussion or related business - time remaining
+
+## Zoom Link (in case you don't have it):
+Nic Jelinski is inviting you to a scheduled Zoom meeting.
+Topic: ASDB/AK 2026 Grant Team Meeting #3
+Time: Jan 13, 2023 12:00 PM Central Time (9AK, 11AM Mountain, 1PM Eastern)
+
+Join Zoom Meeting
+[https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09](https://www.google.com/url?q=https://umn.zoom.us/j/95708062752?pwd%3DOWx0cWswL3duYmg0eUtLZFVkd3dMUT09&sa=D&source=calendar&ust=1673250413240072&usg=AOvVaw28ke2lhujH4k9m8Huk_vJI)
+
+Meeting ID: 957 0806 2752
+Passcode: MLwpf9
+
+Respectfully,
+Nic

@@ -1,0 +1,22 @@
+# AKSDB Team Meeting Minutes 13OCT2023
+Attendees: Nic Jelinski, Sabine Grunwald, Matt Macander, Timm Nawrocki, Travis Nauman, Frances Biles  
+
+## Updates on action items from September
+Nic drafted the pedometrics abstract and received comments from the group
+
+## Pedometrics 2024 Abstract
+Pedometrics abstract will be submitted on Saturday 14OCT - please get comments in if you have any
+
+## Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE
+Reviewed progress on datasource aqcuisition since last meeting
+
+## Presentation of GEMS scripting workflow
+Nic and Irf presented concepts and mechanics of GEMS workflow and metadata tagging/mining
+
+### Other business
+Frances brought up an excellent questions - where can all opf these different file types live? Nic is working on it - Box will be the most likely place. I can link to Box from GitHub as well
+Travis - another option could be to host a Teams workspace
+Timm N. - Is there an api endpoint for GEMS? would be nice to have a database to database connection. Nic will talk to GEMS engineers.
+
+### Action Items
+
