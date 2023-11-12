@@ -1,0 +1,59 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "Alaska Soil Data Bank Project Meeting Minutes and Message Archive"
+  author: "N.A. Jelinski, I.H. Ainuddin and the AKSDB Team"
+  date: "11-November-2023"
+  # cover-image: "aksdb-badge-02.png"
+  
+  chapters:
+    - index.qmd
+    - part: meeting-minutes.qmd
+      chapters:
+        - minutes-24OCT2022.qmd
+        - minutes-14DEC2022.qmd
+        - minutes-13JAN2023.qmd
+        - minutes-10FEB2023.qmd
+        - minutes-10MAR2023.qmd
+        - minutes-14APR2023.qmd
+        - minutes-12MAY2023.qmd
+        - minutes-09JUN2023.qmd
+        - minutes-14JUL2023.qmd
+        - minutes-11AUG2023.qmd
+        - minutes-08SEP2023.qmd
+        - minutes-13OCT2023.qmd
+        - minutes-10NOV2023.qmd
+    - part: message-archive.qmd
+      chapters:
+        - messages-18NOV2022.qmd
+        - messages-05DEC2022.qmd
+        - messages-15DEC2022.qmd
+        - messages-05JAN2023.qmd
+        - messages-07FEB2023.qmd
+        - messages-09MAR2023.qmd
+        - messages-13APR2023.qmd
+        - messages-08JUN2023.qmd
+        - messages-31JUL2023.qmd
+        - messages-11AUG2023.qmd
+        - messages-11AUG2023-2.qmd
+        - messages-08SEP2023.qmd
+        - messages-08SEP2023-2.qmd
+        - messages-11OCT2023.qmd
+        - messages-09NOV2023.qmd
+    # - summary.qmd
+    # - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
