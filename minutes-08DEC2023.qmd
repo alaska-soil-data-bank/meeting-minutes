@@ -1,0 +1,57 @@
+# Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Attendees: Matt Macander (ABR), Sue Ives (ABR), Sabine Grunwald (UF), Neil Pastick (USGS), Jacquie Foss (USFS), Mike Sousa (NRCS), Travis Nauman (NRCS), Colby Brungard (NMSU), Josh Minai (DOE), Timm Nawrocki (ACCS), Irfan Ainuddin (UMN).
+
+Recording is here: [**DEC Meeting Recording GMT20231208 180337 Recording 1920x1080**](https://youtu.be/KMn54PS6mnc)
+
+# Project Updates
+
+## GitHub Organization Review
+
+The group has a GitHub organization with repositories for project metadata, meetings, reporting documents, etc. Nic proposed flipping it from private to public access to facilitate sharing links. Private datasets would be removed first. The group discussed and agreed this would be acceptable.
+
+## Data Curation Progress
+
+-   Over 700 additional hard copy NRCS pedons were identified that can be added to NASIS, including \~500 from Fairbanks and \~220 from Wasilla. These will help fill spatial gaps in under-represented areas.
+-   Retiring NPS scientist Dave Swanson will compile unavailable National Park Service data to contribute.
+-   A tentative target was set to have a preliminary harmonized soil dataset compiled by March to start developing modeling workflows, likely starting with taxonomy.
+
+## Spatial Data Summary
+
+Nic presented a spatial overview of compiled data so far across the state.
+
+# Modeling and Covariates Discussion
+
+## Timelines
+
+Matt asked about timelines for getting covariates and modeling workflows ready. The current aim is to have harmonized site data compiled by end of March. Colby and Matt will continue advancing statewide covariate development accordingly.
+
+## Model Resolution
+
+For elevation data, 10m vs 30m resolution was discussed. 30m may be more appropriate for statewide modeling, while 10m could help represent landscape heterogeneity. IfSar can have issues in forested areas. ERA5 land data could also be an option.
+
+## Model Inputs
+
+-   For climate data, downscaled PRISM is a good statewide option. Alternate sources mentioned were SNAP and ERA5 land products.
+-   Incorporating remote sensing data could help capture pre/post disturbance conditions if site data is timestamped appropriately.
+
+## Model Outputs
+
+While initial modeling may focus more on soil taxonomy, properties like organic layer thickness will also emerge as interesting continuous outputs not specified in the agreement. The group discussed starting with a draft taxonomy-focused effort first, then iterating with additional data later.
+
+## Other Notes
+
+Additional discussion touched on incorporating newer NASIS data, using bulk density to estimate carbon stocks, and the need for additional nitrogen data.
+
+# Action Items
+
+-   Nic will reach out to USFS representatives not present about making the GitHub repository public.\
+-   Nic will meet with Neil from USGS to discuss modeling approaches.\
+-   Nic will compile a spatial overview of additional NRCS pedons for January's meeting.
+-   Matt and Colby will continue advancing statewide covariate development.
+
+# Next Meeting
+
+The next meeting is scheduled for January 12, 2023.
