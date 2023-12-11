@@ -14,67 +14,46 @@
     "text": "This section contains meeting minutes from monthly AKSDB meetings. The meeting minutes template can be found at:"
   },
   {
-    "objectID": "minutes-08DEC2023.html",
-    "href": "minutes-08DEC2023.html",
-    "title": "2  Introductions",
-    "section": "",
-    "text": "3 Project Updates\nThe next meeting is scheduled for January 12, 2023."
+    "objectID": "minutes-08DEC2023.html#introductions",
+    "href": "minutes-08DEC2023.html#introductions",
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.1 Introductions",
+    "text": "2.1 Introductions\nThe meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:\nAttendees: Matt Macander (ABR), Sue Ives (ABR), Sabine Grunwald (UF), Neil Pastick (USGS), Jacquie Foss (USFS), Mike Sousa (NRCS), Travis Nauman (NRCS), Colby Brungard (NMSU), Josh Minai (DOE), Timm Nawrocki (ACCS), Irfan Ainuddin (UMN).\nRecording is here: DEC Meeting Recording GMT20231208 180337 Recording 1920x1080"
   },
   {
-    "objectID": "minutes-08DEC2023.html#github-organization-review",
-    "href": "minutes-08DEC2023.html#github-organization-review",
-    "title": "2  Introductions",
-    "section": "3.1 GitHub Organization Review",
-    "text": "3.1 GitHub Organization Review\nThe group has a GitHub organization with repositories for project metadata, meetings, reporting documents, etc. Nic proposed flipping it from private to public access to facilitate sharing links. Private datasets would be removed first. The group discussed and agreed this would be acceptable."
+    "objectID": "minutes-08DEC2023.html#project-updates",
+    "href": "minutes-08DEC2023.html#project-updates",
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.2 Project Updates",
+    "text": "2.2 Project Updates\n\n2.2.1 GitHub Organization Review\nThe group has a GitHub organization with repositories for project metadata, meetings, reporting documents, etc. Nic proposed flipping it from private to public access to facilitate sharing links. Private datasets would be removed first. The group discussed and agreed this would be acceptable.\n\n\n2.2.2 Data Curation Progress\n\nOver 700 additional hard copy NRCS pedons were identified that can be added to NASIS, including ~500 from Fairbanks and ~220 from Wasilla. These will help fill spatial gaps in under-represented areas.\nRetiring NPS scientist Dave Swanson will compile unavailable National Park Service data to contribute.\nA tentative target was set to have a preliminary harmonized soil dataset compiled by March to start developing modeling workflows, likely starting with taxonomy.\n\n\n\n2.2.3 Spatial Data Summary\nNic presented a spatial overview of compiled data so far across the state."
   },
   {
-    "objectID": "minutes-08DEC2023.html#data-curation-progress",
-    "href": "minutes-08DEC2023.html#data-curation-progress",
-    "title": "2  Introductions",
-    "section": "3.2 Data Curation Progress",
-    "text": "3.2 Data Curation Progress\n\nOver 700 additional hard copy NRCS pedons were identified that can be added to NASIS, including ~500 from Fairbanks and ~220 from Wasilla. These will help fill spatial gaps in under-represented areas.\nRetiring NPS scientist Dave Swanson will compile unavailable National Park Service data to contribute.\nA tentative target was set to have a preliminary harmonized soil dataset compiled by March to start developing modeling workflows, likely starting with taxonomy."
-  },
-  {
-    "objectID": "minutes-08DEC2023.html#spatial-data-summary",
-    "href": "minutes-08DEC2023.html#spatial-data-summary",
-    "title": "2  Introductions",
-    "section": "3.3 Spatial Data Summary",
-    "text": "3.3 Spatial Data Summary\nNic presented a spatial overview of compiled data so far across the state."
-  },
-  {
-    "objectID": "minutes-08DEC2023.html#timelines",
-    "href": "minutes-08DEC2023.html#timelines",
-    "title": "2  Introductions",
-    "section": "4.1 Timelines",
-    "text": "4.1 Timelines\nMatt asked about timelines for getting covariates and modeling workflows ready. The current aim is to have harmonized site data compiled by end of March. Colby and Matt will continue advancing statewide covariate development accordingly."
-  },
-  {
-    "objectID": "minutes-08DEC2023.html#model-resolution",
-    "href": "minutes-08DEC2023.html#model-resolution",
-    "title": "2  Introductions",
-    "section": "4.2 Model Resolution",
-    "text": "4.2 Model Resolution\nFor elevation data, 10m vs 30m resolution was discussed. 30m may be more appropriate for statewide modeling, while 10m could help represent landscape heterogeneity. IfSar can have issues in forested areas. ERA5 land data could also be an option."
-  },
-  {
-    "objectID": "minutes-08DEC2023.html#model-inputs",
-    "href": "minutes-08DEC2023.html#model-inputs",
-    "title": "2  Introductions",
-    "section": "4.3 Model Inputs",
-    "text": "4.3 Model Inputs\n\nFor climate data, downscaled PRISM is a good statewide option. Alternate sources mentioned were SNAP and ERA5 land products.\nIncorporating remote sensing data could help capture pre/post disturbance conditions if site data is timestamped appropriately."
-  },
-  {
-    "objectID": "minutes-08DEC2023.html#model-outputs",
-    "href": "minutes-08DEC2023.html#model-outputs",
-    "title": "2  Introductions",
-    "section": "4.4 Model Outputs",
-    "text": "4.4 Model Outputs\nWhile initial modeling may focus more on soil taxonomy, properties like organic layer thickness will also emerge as interesting continuous outputs not specified in the agreement. The group discussed starting with a draft taxonomy-focused effort first, then iterating with additional data later."
+    "objectID": "minutes-08DEC2023.html#modeling-and-covariates-discussion",
+    "href": "minutes-08DEC2023.html#modeling-and-covariates-discussion",
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.3 Modeling and Covariates Discussion",
+    "text": "2.3 Modeling and Covariates Discussion\n\n2.3.1 Timelines\nMatt asked about timelines for getting covariates and modeling workflows ready. The current aim is to have harmonized site data compiled by end of March. Colby and Matt will continue advancing statewide covariate development accordingly.\n\n\n2.3.2 Model Resolution\nFor elevation data, 10m vs 30m resolution was discussed. 30m may be more appropriate for statewide modeling, while 10m could help represent landscape heterogeneity. IfSar can have issues in forested areas. ERA5 land data could also be an option.\n\n\n2.3.3 Model Inputs\n\nFor climate data, downscaled PRISM is a good statewide option. Alternate sources mentioned were SNAP and ERA5 land products.\nIncorporating remote sensing data could help capture pre/post disturbance conditions if site data is timestamped appropriately.\n\n\n\n2.3.4 Model Outputs\nWhile initial modeling may focus more on soil taxonomy, properties like organic layer thickness will also emerge as interesting continuous outputs not specified in the agreement. The group discussed starting with a draft taxonomy-focused effort first, then iterating with additional data later."
   },
   {
     "objectID": "minutes-08DEC2023.html#other-notes",
     "href": "minutes-08DEC2023.html#other-notes",
-    "title": "2  Introductions",
-    "section": "4.5 Other Notes",
-    "text": "4.5 Other Notes\nAdditional discussion touched on incorporating newer NASIS data, using bulk density to estimate carbon stocks, and the need for additional nitrogen data."
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.4 Other Notes",
+    "text": "2.4 Other Notes\nAdditional discussion touched on incorporating newer NASIS data, using bulk density to estimate carbon stocks, and the need for additional nitrogen data."
+  },
+  {
+    "objectID": "minutes-08DEC2023.html#action-items",
+    "href": "minutes-08DEC2023.html#action-items",
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.5 Action Items",
+    "text": "2.5 Action Items\n\nNic will reach out to USFS representatives not present about making the GitHub repository public.\n\nNic will meet with Neil from USGS to discuss modeling approaches.\n\nNic will compile a spatial overview of additional NRCS pedons for January’s meeting.\nMatt and Colby will continue advancing statewide covariate development."
+  },
+  {
+    "objectID": "minutes-08DEC2023.html#next-meeting",
+    "href": "minutes-08DEC2023.html#next-meeting",
+    "title": "2  AKSDB Team Meeting Minutes 08DEC2023",
+    "section": "2.6 Next Meeting",
+    "text": "2.6 Next Meeting\nThe next meeting is scheduled for January 12, 2023."
   },
   {
     "objectID": "minutes-10NOV2023.html#opening",
@@ -266,128 +245,135 @@
     "text": "This part contains an archive of messages from the AKSDB project lead (N. Jelinski) to the AKSDB working group. They are currently archived in chronological order."
   },
   {
+    "objectID": "messages-01DEC2023.html",
+    "href": "messages-01DEC2023.html",
+    "title": "16  [AKSDB] Reminder: December Meeting This Friday (12/8) : 9AM AK, 11AM Mountain, 12PM CST, 1PM Eastern) + Agenda",
+    "section": "",
+    "text": "Hi Everyone -\nA reminder that we will be holding our monthly project check-in during our normal scheduled time this Friday, December 8th (Zoom link below if you don’t have it).\nTime (Friday, 12/8): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf & Josh & Neal) 1PM Eastern (Sabine)\nAgenda: 1. New group members: Neal Pastick (USGS) 2. Updates on Action Items from November 3. Review project materials and GitHub organization 4. Discussion re: flipping GitHub organization to public status 5. Update/review/discussion re: data curation and acquisition progress - Integration with Torre Jorgenson’s non-ABR legacy database - New NRCS finds: Fairbanks NRCS office hard copy pedons not in NASIS (&gt; 500 - mostly Gerstle River, Greater Fairbanks, Greater Nenana and Fort Wainwright surveys). - Additional data acquisition from Dave Swanson (NPS) prior to retirement 6. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 December Team Meeting Time: December 8, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic –"
+  },
+  {
     "objectID": "messages-09NOV2023.html",
     "href": "messages-09NOV2023.html",
-    "title": "16  [AKSDB] Reminder: November Meeting Tomorrow (Friday, 11/10) + Agenda [09NOV2023]",
+    "title": "17  [AKSDB] Reminder: November Meeting Tomorrow (Friday, 11/10) + Agenda [09NOV2023]",
     "section": "",
     "text": "Hi Everyone -\nA reminder that we will be holding our monthly project check-in during our normal scheduled time tomorrow, Friday, November 10th (Zoom link below if you don’t have it).\nTime (Friday, 11/10): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf & Josh) 1PM Eastern (Sabine)\nAgenda: 1. New group members: Josh Minai (DOE - Argonne National Lab) + Potential invitee w/ USGS 2. Updates on Action Items from October 3. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE. 4. Presentation/Discussion of Draft Data Completeness, Geospatial Data Quality, and Soil Classification Quality Rankings, which you can find in the Deliverable 1 Metadata 5. Presentation/Discussion of Current Field Metadata Controlled Vocabulary/Taxonomy 6. Presentation/Discussion of Draft Table of Covariates (currently being modified from original version from Colby and Matt). 7. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 August Team Meeting Time: November 10, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-11OCT2023.html",
     "href": "messages-11OCT2023.html",
-    "title": "17  [AKSDB - Action Item] Pedometrics 2024 Conference Abstract + October Meeting (10/13) Reminder and Agenda [11OCT2023]",
+    "title": "18  [AKSDB - Action Item] Pedometrics 2024 Conference Abstract + October Meeting (10/13) Reminder and Agenda [11OCT2023]",
     "section": "",
     "text": "Hi Everyone -\nTwo big items: 1). Pedometrics 2024 Abstract. I am sharing a draft of a Pedometrics 2024 conference abstract (due this Sunday, 15OCT). While our previous EUCOP 2023 poster focused on the high level aspects of the project itself, this talk will focus on the workflow details and will be highly relevant to the pedometrics audience. Please take action by reading the abstract draft and making any suggestions (I know not everyone can access Google Drive so I am just attaching here as a document). Feel free to send back any comments and I will consolidate. Federal folks: I have you listed as potential co-authors - however I know some of you made need approval - if this timeline is too short for you to get approval (apologies) just let me know and we can either remove you from the co-author list or delay and edit/add you once you get approval.\n2). October Monthly Meeting. A reminder that we will be holding our monthly project check-in during our normal scheduled time this Friday, October 13th (Zoom link below if you don’t have it).\nTime (Friday, 10/13): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf) 1PM Eastern (Sabine)\nAgenda: 1. Updates on Action Items from September 2. Pedometrics 2024 abstract 3. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE. 4. Presentation of GEMS scripting workflow 5. Potential new group members: Travis Nauman (NRCS) and Erin Rooney (NRCS) + Woodwell Climate Folks (Y-K Delta). 6. Broad OCT-DEC objectives 7. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 August Team Meeting Time: October 13, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-08SEP2023-2.html",
     "href": "messages-08SEP2023-2.html",
-    "title": "18  [AKSDB] Follow Up: SEP Brief Minutes + Revised Data Sharing Agreement (v 1.2) [08SEP2023]",
+    "title": "19  [AKSDB] Follow Up: SEP Brief Minutes + Revised Data Sharing Agreement (v 1.2) [08SEP2023]",
     "section": "",
     "text": "Hi Everyone -\nThanks for all in attendance at todays meeting. Brief minutes as follows:\n\nDiscussed updates on Action Items from August - I consolidated all comments on the data sharing agreement template and am attaching the current version 1.2 (dated 08SEP2023) here. Matt - please use this template as you engage on the Conoco and Hilcorp datasets - let me know if you think anything should be modified further as you begin discussions with those entities.\nDiscussed recent find of Mark Clark STATSGO pedons (~150) not in NASIS in the NRCS Wasilla office. Nic’s group will work on getting these in NASIS.\nGEMS updates - Irf will give an update in October.\nOral presentation abstract for 2024 Pedometrics conference - due 15OCT. Nic will get an initial draft to this group by next Friday and request comments/edits. Everyone on this email group will be invited to be a co-author on the presentation.\n\nThank you all! Next meeting is Friday, October 13.\nRespectfully, Nic"
   },
   {
     "objectID": "messages-08SEP2023.html",
     "href": "messages-08SEP2023.html",
-    "title": "19  Reminder: AK 2026 Soil Data Bank Grant - Today - Friday, September 8th (9am AK, 11AM Mountain, 1PM Eastern) [08SEP2023]",
+    "title": "20  Reminder: AK 2026 Soil Data Bank Grant - Today - Friday, September 8th (9am AK, 11AM Mountain, 1PM Eastern) [08SEP2023]",
     "section": "",
     "text": "Hi Everyone -\nA reminder that we will be holding a check-in during our normal scheduled time today, Friday, September 8th (Zoom link below if you don’t have it). If you are unable to attend, don’t worry - I will send minutes afterwards.\nTime (Friday, 9/8): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf) 1PM Eastern (Sabine)\nAgenda: 1. Updates on Action Items from August - some of you have provided comments on the data sharing and co-authorship agreements (drafts attached again here) - I have consolidated comments - we will review comments and discuss for everyone in attendance. 2. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE. 3. Update on very significant recently discovered data from NRCS - not in NASIS. 3. GEMS updates. 4. Broad SEP-DEC objectives 5. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 August Team Meeting Time: September 08, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-11AUG2023-2.html",
     "href": "messages-11AUG2023-2.html",
-    "title": "20  [AKSDB - Action Item for September] Review Data Sharing and Use and Co-Authorship Guidelines Draft Documents [11AUG2023]",
+    "title": "21  [AKSDB - Action Item for September] Review Data Sharing and Use and Co-Authorship Guidelines Draft Documents [11AUG2023]",
     "section": "",
     "text": "Hi Everyone -\nIrfan, Sabine and I had a very productive discussion today with our USFS colleagues Dave D’Amore, Frances Biles and Jacquie Foss, who will be joining our group and meetings as they are able. I will post meeting minutes to the GitHub site, however there is one action item I am requesting prior to our September 8th meeting:\nPlease review and provide any comments as you are able on 1) our draft data sharing and use and 2) co-authorship guidelines and agreements. Note that the data sharing agreement is targeted for the most restrictive data provider (i.e. Conoco-Phillips) - clearly many data providers will not need or require a data sharing agreement or may want to significantly pare down what is in the current draft, and that is just fine.\nI am providing both draft documents here as word documents because some folks have had problems accessing Google Docs. Please feel free to make any comments you have either on the docs or in an email and send back to Irfan and I. We will consolidate.\nThank you and enjoy August!\nRespectfully, Nic"
   },
   {
     "objectID": "messages-11AUG2023.html",
     "href": "messages-11AUG2023.html",
-    "title": "21  Reminder: AK 2026 Soil Data Bank Grant - Today - Friday, August 11th (9am AK, 11AM Mountain, 1PM Eastern)",
+    "title": "22  Reminder: AK 2026 Soil Data Bank Grant - Today - Friday, August 11th (9am AK, 11AM Mountain, 1PM Eastern)",
     "section": "",
     "text": "Hi Everyone -\nA reminder that we will be holding a check-in during our normal scheduled time today, Friday, August 11th (Zoom link below if you don’t have it). I know many folks may not be able to attend, but if you are able please do and we can make it short.\nThe main points of discussion I would like to address are updates on data curation, GEMS, and general check-ins/setting the objectives for the fall.\nTime (Friday, 8/11): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf) 1PM Eastern (Sabine)\nAgenda: 1. Check-In and Introductions (if anyone new joins) 2. Updates on Action Items from May/June 2. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE 3. GEMS updates. 4. Broad SEP-DEC objectives 5. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 August Team Meeting Time: August 11, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-31JUL2023.html",
     "href": "messages-31JUL2023.html",
-    "title": "22  AK 2026 Soil Data Bank Grant - Meeting Agenda - Friday, August 11th (9am AK, 11AM Mountain, 1PM Eastern)",
+    "title": "23  AK 2026 Soil Data Bank Grant - Meeting Agenda - Friday, August 11th (9am AK, 11AM Mountain, 1PM Eastern)",
     "section": "",
     "text": "Hi Everyone -\nApologies for the cancellation of our June meeting, and July flew by in the field - I know most people have been traveling and out. I am currently between fieldwork but would like to hold a short check-in during our normal scheduled time this Friday, August 11th (Zoom link below if you don’t have it). I know many folks may not be able to attend, but if you are able please do and we can make it short.\nI am including Dave D’Amore and Jacquie Foss (USFS) as well as Timm Nawrocki (Alaska Center for Conservation Science) as I would like to give the three of them visibility over our work in the context of this project as they will be contributing data and potentially be co-authors in the future. Dave, Jacquie and Timm - please feel free to join if you are able - if not, no worries - full meetings will resume monthly in September (second Friday of each month) and we would love to have you join as you are able.\nThe main points of discussion I would like to address are updates on data curation, GEMS, and general check-ins/setting the objectives for the fall.\nTime (Friday, 8/11): 9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie) 11AM Mountain (Colby) 12PM Central (Nic & Irf) 1PM Eastern (Sabine)\nAgenda: 1. Check-In and Introductions (if anyone new joins) 2. Updates on Action Items from May/June 2. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE 3. GEMS updates. 4. Broad SEP-DEC objectives 5. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 August Team Meeting Time: August 11, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic –"
   },
   {
     "objectID": "messages-08JUN2023.html",
     "href": "messages-08JUN2023.html",
-    "title": "23  [AKSDB] EUCOP Poster Draft + Cancel Tomorrow’s June 9th Project Meeting [08JUN2023]",
+    "title": "24  [AKSDB] EUCOP Poster Draft + Cancel Tomorrow’s June 9th Project Meeting [08JUN2023]",
     "section": "",
     "text": "Hi Everyone -\nCancel June Meeting. My sincerest apologies but due to some unanticipated fieldwork & travel I need to cancel our June project meeting (originally scheduled for tomorrow, Friday, June 9th). I’m sure many others are otherwise occupied as well. Instead, I will provide project updates by the end of the June to everyone. Current action items (in brief) are to: 1. Complete draft of data sharing agreement (Nic) 2. Complete wrangling of preliminary datasets into GEMS (Irf) 3. Continue to pursue/expand data wrangling efforts (Nic, Irf, All). In that vein, I have asked Dave D’Amore (USFS Alaska) to join our group as USFS will be contributing quite a load of data and Dave has expressed interest in participating. If anyone has objections to this please let me know.\nEUCOP Poster. Finally, I will be attending EUCOP as part of another project but am presenting a poster on our project. It is more a “project overview” poster than a results poster at this point. See initial draft attached - please let me know if you would like to see any changes by Monday @ 10:00AM (I will print Monday afternoon).\nSabine: Could you send me an approved UF logo for use? Colby: Is the NMSU logo OK? Matt & Sue: Could you send me the current ABR logo (I think the one I put on there is old?).\nThank you all!\nAKSDB Poster DRAFT Updated w Figures 08JUN2023.pdf\nRespectfully, Nic"
   },
   {
     "objectID": "messages-13APR2023.html",
     "href": "messages-13APR2023.html",
-    "title": "24  AK 2026 SPSD AKSDB Grant - Meeting #6 Agenda - Friday, April 14th [13APR2023]",
+    "title": "25  AK 2026 SPSD AKSDB Grant - Meeting #6 Agenda - Friday, April 14th [13APR2023]",
     "section": "",
     "text": "Hi Everyone -\nJust a reminder that our April AKSDB project meeting is tomorrow, Friday, April 14th.\nThis meeting may be a bit shorter (30-45 min) as I have a PhD defense committee to site on immediately following. The main points of discussion I would like to address are updates on data curation from various sources and also our May-August meeting schedule.\nTime (Friday, 4/14): 9AM AK (Matt & Sue & Mike) 11AM Mountain (Colby) 12PM Central (Nic) 1PM Eastern (Sabine)\nAgenda: 1. Updates on Action Items from previous meeting 2. Update/review/discussion re: data curation and acquisition from NPS, BLM, USFS, DOE 3. Discussion regarding additional needs for contacting initiating data acquisition discussions from other sources. 4. Meeting schedule May-August 5. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #6 Time: April 14, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-09MAR2023.html",
     "href": "messages-09MAR2023.html",
-    "title": "25  AK 2026 SPSD ASDB Grant - Meeting #5 Agenda - Friday, March 10th [09MAR2023]",
+    "title": "26  AK 2026 SPSD ASDB Grant - Meeting #5 Agenda - Friday, March 10th [09MAR2023]",
     "section": "",
     "text": "Hi Everyone -\nJust a reminder that our March AKSDB project meeting is tomorrow, Friday, March 10th.\nI would like to keep the agenda items fairly similar to last time (since we were missing both Sabine and Colby), with the caveat that we have made progress on some of these and I will be providing updates in addition to discussion.\nTime (Friday, 3/10): 9AM AK (Matt & Sue & Mike) 11AM Mountain (Colby) 12PM Central (Nic) 1PM Eastern (Sabine)\nAgenda: 1. Updates on Action Items from previous meeting ~10 min 2. Update/review/discussion re: data sharing agreements/memoranda of understanding 3. Preliminary discussion regarding authorship guidelines and considerations 4. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #4 Time: Mar 10, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-07FEB2023.html",
     "href": "messages-07FEB2023.html",
-    "title": "26  AK 2026 SPSD ASDB Grant - Meeting #4 Action Items + Agenda - Friday, February 10th [07FEB2023]",
+    "title": "27  AK 2026 SPSD ASDB Grant - Meeting #4 Action Items + Agenda - Friday, February 10th [07FEB2023]",
     "section": "",
     "text": "Hi Everyone -\nJust a reminder that our February AKSDB project meeting is this Friday, February 10th. Mike Sousa (USDA-NRCS Alaska may also begin joining in on some of these meetings).\nIrf and I have drafted a more complete outline of our project metadata document which can be found here. Most sections are incomplete, and there are potentially many other sections to add, but it is a start that we can work on. Remember that this is our project level metadata, and not dataset-level metadata, which will be managed in GEMS.\nEveryone: If you have a chance please at least briefly scroll through the document and familiarize yourself with the structure. In the meeting we will have time to review and documents any critiques, questions or things you would like to see added.\nSabine: If you have any comments please feel free to send them to me directly and I will incorporate them into our notes. I am especially interested in your perspectives on authorship guidelines/data contributions. We are just starting this conversation this month, so will have plenty of other opportunities to discuss in the future.\nTime (Friday, 2/10): 9AM AK (Matt & Sue & Mike) 11AM Mountain (Colby) 12PM Central (Nic) 1PM Eastern (Sabine) - Sabine will not be in attendance at this meeting\nAgenda: 1. Updates on Action Items from previous meeting ~10 min 2. Discussion regarding draft project metadata document under development - sections to add in outline, other considerations 3. Review and discussion re: data sharing agreements/memoranda of understanding 4. Preliminary discussion regarding authorship guidelines and considerations 5. Any other discussion or related business - time remaining\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #4 Time: Feb 10, 2023 12:00 PM Central Time (9AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-05JAN2023.html#updates-action-items",
     "href": "messages-05JAN2023.html#updates-action-items",
-    "title": "27  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
-    "section": "27.1 Updates + Action Items:",
-    "text": "27.1 Updates + Action Items:\n\nGEMS Team Created: Everyone was able to successfully register for a GEMS account, and I worked with the GEMS engineers to create a private team and workspace called “Alaska Soil Data Bank”. I now added you all as members to that team. TODO: Everyone - If you login to GEMS and then go to “Teams” and “My Teams”, you should now see it under your list. Let me know if you don’t.\nSabine and Matt - thank you for sending me documents/data. Much appreciated!\nGitHub Organization Created: After some consideration I have decided to move all of our project coordination from Box to a GitHub organization called “alaska-soil-data-bank” with multiple repos (currently all set as private) under it. I have migrated everything to GitHub and will no longer be maintaining our Box shared folder. There are several advantages to this:\n\n\nWe can publish our project-related documentation and repos publicly once we are ready.\nWe can develop our project metadata as a publicly accessible book published through GitHub Pages - here is a rough example: https://alaska-soil-data-bank.github.io/project-metadata/\nI can manage meeting minutes and updates as Discussions to create a running archive, and Todos can be managed as Issues. You will see I have already done this for our previous content under “Discussions”. TODO: Colby, Sabine and Irf - I found your GitHub profiles and invited you to the organization: let me know if you don’t see the invites. Matt - I couldn’t find you on GitHub - could you sign up for and account and/or send me your username? Then I will add you to the organization so you can access repos."
+    "title": "28  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
+    "section": "28.1 Updates + Action Items:",
+    "text": "28.1 Updates + Action Items:\n\nGEMS Team Created: Everyone was able to successfully register for a GEMS account, and I worked with the GEMS engineers to create a private team and workspace called “Alaska Soil Data Bank”. I now added you all as members to that team. TODO: Everyone - If you login to GEMS and then go to “Teams” and “My Teams”, you should now see it under your list. Let me know if you don’t.\nSabine and Matt - thank you for sending me documents/data. Much appreciated!\nGitHub Organization Created: After some consideration I have decided to move all of our project coordination from Box to a GitHub organization called “alaska-soil-data-bank” with multiple repos (currently all set as private) under it. I have migrated everything to GitHub and will no longer be maintaining our Box shared folder. There are several advantages to this:\n\n\nWe can publish our project-related documentation and repos publicly once we are ready.\nWe can develop our project metadata as a publicly accessible book published through GitHub Pages - here is a rough example: https://alaska-soil-data-bank.github.io/project-metadata/\nI can manage meeting minutes and updates as Discussions to create a running archive, and Todos can be managed as Issues. You will see I have already done this for our previous content under “Discussions”. TODO: Colby, Sabine and Irf - I found your GitHub profiles and invited you to the organization: let me know if you don’t see the invites. Matt - I couldn’t find you on GitHub - could you sign up for and account and/or send me your username? Then I will add you to the organization so you can access repos."
   },
   {
     "objectID": "messages-05JAN2023.html#time-friday-113",
     "href": "messages-05JAN2023.html#time-friday-113",
-    "title": "27  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
-    "section": "27.2 Time (Friday, 1/13):",
-    "text": "27.2 Time (Friday, 1/13):\n9AM AK (Matt) 11AM Mountain (Colby) 12PM Central (Nic) 1PM Eastern (Sabine)"
+    "title": "28  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
+    "section": "28.2 Time (Friday, 1/13):",
+    "text": "28.2 Time (Friday, 1/13):\n9AM AK (Matt) 11AM Mountain (Colby) 12PM Central (Nic) 1PM Eastern (Sabine)"
   },
   {
     "objectID": "messages-05JAN2023.html#agenda",
     "href": "messages-05JAN2023.html#agenda",
-    "title": "27  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
-    "section": "27.3 Agenda:",
-    "text": "27.3 Agenda:\n\nUpdates on Action Items from previous meeting ~10 min\nOrientation to GitHub Organization and Project Management ~5 min\nOrientation to GEMS Platform ~5 min\nExample interactions with GEMS UI and Workspace: Chien-Lu Ping’s UAF soil characterization database + ABR legacy database snippet from Matt) ~ 30 min\nAny other discussion or related business - time remaining"
+    "title": "28  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
+    "section": "28.3 Agenda:",
+    "text": "28.3 Agenda:\n\nUpdates on Action Items from previous meeting ~10 min\nOrientation to GitHub Organization and Project Management ~5 min\nOrientation to GEMS Platform ~5 min\nExample interactions with GEMS UI and Workspace: Chien-Lu Ping’s UAF soil characterization database + ABR legacy database snippet from Matt) ~ 30 min\nAny other discussion or related business - time remaining"
   },
   {
     "objectID": "messages-05JAN2023.html#zoom-link-in-case-you-dont-have-it",
     "href": "messages-05JAN2023.html#zoom-link-in-case-you-dont-have-it",
-    "title": "27  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
-    "section": "27.4 Zoom Link (in case you don’t have it):",
-    "text": "27.4 Zoom Link (in case you don’t have it):\nNic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #3 Time: Jan 13, 2023 12:00 PM Central Time (9AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
+    "title": "28  AK 2026 SPSD AKSDB Grant - Meeting #3 Action Items [TODO Before Meeting!] + Agenda - Friday, January 13th [05JAN2023]",
+    "section": "28.4 Zoom Link (in case you don’t have it):",
+    "text": "28.4 Zoom Link (in case you don’t have it):\nNic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #3 Time: Jan 13, 2023 12:00 PM Central Time (9AK, 11AM Mountain, 1PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09\nMeeting ID: 957 0806 2752 Passcode: MLwpf9\nRespectfully, Nic"
   },
   {
     "objectID": "messages-15DEC2022.html",
     "href": "messages-15DEC2022.html",
-    "title": "28  Follow-Up and Action Items: AKSB Meeting #2 - Three Things! [15DDEC2022]",
+    "title": "29  Follow-Up and Action Items: AKSB Meeting #2 - Three Things! [15DDEC2022]",
     "section": "",
     "text": "Hi Everyone -\nThank you for discussion yesterday - a few follow ups:\n\nMinutes now posted. I added the minutes of yesterdays discussion to our running minutes document in the Box folder: https://umn.box.com/s/xjp7icv7ki3jjdqfmeuwrlrjwe8bwmct. All of my substantive group emails will now start with [AKSDB 00X] (with increasing numbers in sequence) so that I can easily keep a running record of important communications.\nAction items. The following action items should be completed before the end of December if possible:\n\n\nEveryone -\n\nplease sign up as a GEMS Open user here: https://gems.agroinformatics.org/webui. Click on the “Sign up to GEMS Open” box and follow instructions (Colby already did this as a test case with his OrchidID (other options as well) and it worked. Once you are approved users I can pull you into my GEMS “Team” which is specific to our project. Send me an email once you have done this so I can look to see if I can see you as a user in the GEMS system.\n\nSabine -\n\nplease send me any metadata documentation you have related to the Florida Soil Characterization Database and/or data handling conventions.\n\nMatt -\n\nplease send me any metadata documentation you have related to the ABR legacy database and/or data handling conventions;\nplease generate a “snippet” or small example dataset that would be representative of structure/fields for the ABR database and send to me. For now, csv will be the best format - can include project and plot data + metadata as separate files (and also soil horizon level as a separate file if that exists for some projects).\n\n\n\nJanuary meeting. For our January meeting, I will go over data ingestion, metadata editing/creation in GEMS using two example datasets (Chien-Lu Ping’s UAF soil characterization database + ABR legacy database snippet from Matt). The GEMS interface and workspace continue to advance significantly and I think the existing and new functionality will serve our needs quite well. Specifically:\n\nThere are excellent tools for appending field metadata - including fuzzy matching based on data types and column headings.\nWe can set up our own project specific ontology/controlled vocabulary in GEMS for field metadata - I can work with GEMS engineers to do this.\nThe GEMS platform tools for generating consistent metadata in JSON format for each dataset are well advanced and easy to use.\nThe GEMS workspace allows us to script in Python or R. I am going to default to R since that is what I use the most and also what we will be using for the DSM work (Deliverable 2).\nAlthough there are excellent tools in GEMS for generating JSON metadata for every dataset, I think we are going to need a more flexible and expansive format for our database level metadata architecture. I may look into setting up a GitHub project for this purpose so that we can have version control and maximum transparency - unless someone has a better suggestion.\n\n\nRespectfully, Nic"
   },
   {
     "objectID": "messages-05DEC2022.html",
     "href": "messages-05DEC2022.html",
-    "title": "29  Reminder: AK 2026 SPSD AKSDB Grant - Meeting #2 - Wednesday, December 14th [05DEC2022]",
+    "title": "30  Reminder: AK 2026 SPSD AKSDB Grant - Meeting #2 - Wednesday, December 14th [05DEC2022]",
     "section": "",
     "text": "Hi Everyone -\nApologies for the delay on getting this scheduled on my end - with a newborn in the house I’m still playing a bit of catchup. Based on the When2Meet that everyone filled out, it looks like December 14th was the best choice. Please let me know if this time no longer works for you and I will work to find an alternative. I did send out a Google Calendar invite but just to be clear because we are operating on 4 different timezones:\nTime (Wednesday , 12/14): 10AM AK (Matt) 12PM Mountain (Colby) 1PM Central (Nic) 2PM Eastern (Sabine)\nAgenda: I scheduled us for an hour, we may or may not take that whole time. I would like to suggest that we spend the “body” of the meeting discussing task specifics centered around Deliverable #1:\n\nUpdates on Action Items from previous meeting ~15 min\nAgree on and schedule recurring meetings moving forward ~10min\nBegin discussion on execution of Deliverable #1 ~30 min\nAny other discussion or related business - time remaining\n\nZoom Link (in case you don’t have it): Nic Jelinski is inviting you to a scheduled Zoom meeting. Topic: ASDB/AK 2026 Grant Team Meeting #2 Time: Dec 14, 2022 01:00 PM Central Time (10AK, 12PM Mountain, 2PM Eastern)\nJoin Zoom Meeting https://umn.zoom.us/j/97717859442?pwd=SGhvdGJSemxvYnVadjFFNUxRVW5DUT09\nMeeting ID: 977 1785 9442 Passcode: 6GFWs8\nRespectfully, Nic"
   },
   {
     "objectID": "messages-18NOV2022.html",
     "href": "messages-18NOV2022.html",
-    "title": "30  AKSDB Initial Meeting Follow-Up and Future Meetings [18NOV2022]",
+    "title": "31  AKSDB Initial Meeting Follow-Up and Future Meetings [18NOV2022]",
     "section": "",
     "text": "Colby, Sabine, and Matt -\nI have now added minutes from our first “AKSDB” team meeting (on 24OCT) to the Box shared folder.\nIn terms of action items from our first meeting, I believe the following things have been addressed:\n\nColby has contacted Suzann Kienast-Brown to request Matt and Sabine be added to the NRCS AK 2026 Task Force mailing list and meeting schedule (the November NRCS task force meeting was cancelled so you haven’t missed anything yet).\nI believe the NMSU and UF subawards have now gone through - Sabine - I also believe we got the start date corrected now for the UF subaward.\nMatt - as I mentioned in my email to you today, the contract for professional services/PO paperwork for ABR is with our accounting for review. I’ll be in touch as soon as I hear anything further.\nIt was suggested that we set up monthly meetings. I set up a When2Meet to try and find a 1 hr block of time to meet on either 12DEC, 13DEC, or 14DEC - I hope one of these days will work - if not I will suggest alternate dates. Please fill it out at your convenience. At our DEC meeting, we can make it an agenda item to find a recurring monthly time that works for everyone starting in January and moving forward.\n\nMy apologies that it has taken me a while to follow-up - the week after our October meeting my wife gave birth to our second boy, so I’ve been a bit behind but am steadily digging out!\nRespectfully, Nic"
   }

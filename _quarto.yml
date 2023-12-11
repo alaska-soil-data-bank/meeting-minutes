@@ -29,6 +29,7 @@ book:
         - minutes-24OCT2022.qmd
     - part: message-archive.qmd
       chapters:
+        - messages-01DEC2023.qmd
         - messages-09NOV2023.qmd
         - messages-11OCT2023.qmd
         - messages-08SEP2023-2.qmd

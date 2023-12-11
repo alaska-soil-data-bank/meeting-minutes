@@ -1,0 +1,37 @@
+# [AKSDB] Reminder: December Meeting This Friday (12/8) : 9AM AK, 11AM Mountain, 12PM CST, 1PM Eastern) + Agenda
+
+Hi Everyone -
+
+A reminder that we will be holding our monthly project check-in during our normal scheduled time this Friday, December 8th (Zoom link below if you don't have it). 
+
+Time (Friday, 12/8): 
+9AM AK (Matt & Sue & Mike & Dave & Timm & Jacquie)
+11AM Mountain (Colby)
+12PM Central (Nic & Irf & Josh & Neal)
+1PM Eastern (Sabine)
+
+Agenda:
+1. New group members: Neal Pastick (USGS)
+2. Updates on Action Items from November
+3. Review project materials and GitHub organization 
+4. Discussion re: flipping GitHub organization to public status
+5. Update/review/discussion re: data curation and acquisition progress
+- Integration with Torre Jorgenson's non-ABR legacy database
+- New NRCS finds: Fairbanks NRCS office hard copy pedons not in NASIS (> 500 - mostly Gerstle River, Greater Fairbanks, Greater Nenana and Fort Wainwright surveys).
+- Additional data acquisition from Dave Swanson (NPS) prior to retirement
+6. Any other discussion or related business - time remaining
+
+Zoom Link (in case you don't have it):
+Nic Jelinski is inviting you to a scheduled Zoom meeting.
+Topic: ASDB/AK 2026 December Team Meeting
+Time: December 8, 2023 12:00 PM Central Time (9AM AK, 11AM Mountain, 1PM Eastern)
+
+Join Zoom Meeting
+https://umn.zoom.us/j/95708062752?pwd=OWx0cWswL3duYmg0eUtLZFVkd3dMUT09
+
+Meeting ID: 957 0806 2752
+Passcode: MLwpf9
+
+Respectfully,
+Nic
+--
