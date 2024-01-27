@@ -1,0 +1,35 @@
+# AKSDB Team Meeting Minutes 24OCT2022
+
+## Agenda and Minutes:
+
+### Introductions
+
+### Review of grant proposal, plan of work, and timeline
+
+### Discussion of NRCS Alaska 2026 task force objectives/working groups and how to best interface with that work within the context of our project.
+
+1.  Get Sabine and Matt on the AK 2026 Taskforce Mailing List for Meetings -- Colby will contact Suzanne K-B about this\
+2.  Open discussion/concerns, planning for future recurring meetings
+
+```{=html}
+<!-- -->
+```
+a.  Schedule monthly recurring meetings -- Nic will coordinate this
+
+```{=html}
+<!-- -->
+```
+    b. From Sabine: we develop memoranda of understanding and agreement as well as implement data policies. This should include co-authorship policies. We should have a letter standardized - all those contribute using data policy. Makes it easier to answer for later - to have something in written form. Should do this with agencies as well – even if data is public. 
+    - How does data ownership work with NASIS - how would data ownership be honored. Some of the academics that might have datasest - how will the data be shared through NASIS with other potential users? 
+    - This process needs to incorporate the NRCS folks.   
+
+    c. From Colby - hard copy data from Forest Service BLM, NRCS 
+    - Should contact Jay Scoblin: NRCS - knows how to get data into NASIS - did a giant export from the forest service NRS database into NASIS.  
+
+    d. From Matt: ABR has asset in Google Earth Engine for statewide covariates 
+    - Colby also has co-variates on statewide basis? 
+
+    e. From Sabine - use some of existing data in terms of horizons and profiles to think of an inference AI model that is able to make predictions from topsoil to lower layers. To use environmental co-variates and topsoil information to make deeper predictions with AI model. Because this would be very interesting with landscape changes - what would happen as warming develops further in the future. 
+    - Will we include data from proximal soil sensing/spectral data, etc? 
+      - Thats the fantastic AI dataset that we could explore - if you had mid IR scan, but didn't know horizonation - could you determine horizons - could you get to horizon nomenclature - would be something to explore - proxys and softer datasets. 
+      - ISRIC - standardized soil images, soil profiles - create consistent images - images exist from soil profiles, soil properties, so you can match the image to the properties. I don't know how deep

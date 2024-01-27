@@ -1,0 +1,16 @@
+# AKSDB Team Meeting Minutes 11AUG2023
+
+Attendees: Nic Jelinski, Sabine Grunwald, Matt Macander, Colby Brungard, Irfan Ainuddin, Sue Ives, Frances Biles, Dave D'Amore, Jacquie Foss      
+
+### Project overview for new USFS attendees
+Jacquie – better systems for managing veg data, spatially explicit veg data in other systems, will need to figure how to connect.
+FIA data – veg data database, with a few soil points.
+J - good to know if veg data exists, if so where does it exist.
+Soils 2026 – maybe Rob Vaughn at Gtech? Stella Smith?
+Geotechnical excellence application center?
+Dave – Harmonized data for digital soil  mapping – isnt gonna happen?, spatial integrity is suspect.
+
+### Action Items
+NEED: Flags for data accuracy
+Github – add Dave to github
+Dave - Template to send data over?

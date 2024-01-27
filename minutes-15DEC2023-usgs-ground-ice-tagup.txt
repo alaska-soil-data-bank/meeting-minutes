@@ -1,0 +1,44 @@
+# Meeting Minutes 15DEC2023 - Ground Ice Tagup
+
+## Background
+
+Nic works at the University of Minnesota in the soil science department. He is specifically a pedologist focused on soil genesis and distribution of soil properties. Since 2012, he has worked on projects related to permafrost-affected soils for various organizations, including a recent project consolidating non-USDA soils data for Alaska to combine with NRCS databases for digital soil mapping initiatives.  
+
+Neal connected Nic with Eva since their interests aligned in potentially rescuing and harmonization of geotechnical data from digital and non-digital reports. Eva works for USGS and previously worked in industry logging drilling operations.
+
+## Data Sources Discussed
+
+**Village Geotechnical Surveys**
+
+- These contain subsurface logs from site investigations in villages. The data is variable in format depending on the company that performed the drilling.
+
+- Torre provided Nic with a data dump of PDF reports from various Alaskan villages. The goal is to extract logs and associated lab data from these where possible.
+
+- The ASTM soil classification system used in logs has limitations for characterizing ground ice. Site-specific translation of ice descriptions would be needed.
+
+**Duane Miller Associates and Other Industry Sources** 
+
+- Eva has access to logs from Duane Miller Associates which focused on slope and village drilling. Their format is more standardized. 
+
+- Other companies have subsumed Duane Miller Associates, so releasing the data publicly would require agreements.
+
+- There are also paper archives from North Slope consultants like Tetra Tech that contain decades of reports. Need to determine feasibility of scanning or shipping boxes of reports.
+
+**Prioritization**
+
+- Focusing digitization on sites with multiple logs showing temporal data could be valuable. Can map locations and determine priority of which logs to focus on extracting data from.
+
+# Data Format and Sharing Logistics
+
+- Formatting data to match Torre's permafrost database structure makes sense since it handles depth and may have ASTM fields. Can crosswalk soil data to standard systems.
+
+- For any private data sources, Nic can share the data management plan for their Alaska soils mapping project. It allows hosting private data securely as needed and ability to partition public vs private data.
+
+- Google Drive folder with data and agreements was shared between Nic, Eva, and Neal.
+
+# Action Items
+
+- Nic to share data management documentation, Torre's database format, village geotech report data dump
+- Eva to review reports and recommend priority logs to start digitization 
+- Eva to inquire about getting Duane Miller logs and access to archives
+- Target having student assistant start extracting data from agreed upon reports in January

@@ -1,0 +1,17 @@
+# AKSDB Team Meeting Minutes 14APR2023
+
+## Agenda and Minutes: 
+
+### Updates on action items from previous meeting 
+1. Sue delivered NPS data from ABR Legacy Database to Nic and Irf
+
+### Review, discussion and brainstorming of status on dataset acquisition
+1. **Review preliminary spreadsheet created by Nic**
+      - Discussed each dataset, added points of contact, added other datasets to the table
+2. **TODOs**
+    - Major action items: 
+      - Nic will get the spreadsheet table up on GitHub as a Project Table
+      - Nic will have a conversation with USFS
+
+## Looking Forward: Future Meetings
+      - Will continue to hold monthly meetings, same timeslot through the growing season - people will join as they can throughout the summer.

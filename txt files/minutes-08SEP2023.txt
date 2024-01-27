@@ -1,0 +1,24 @@
+# AKSDB Team Meeting Minutes 08SEP2023
+Attendees: Nic Jelinski, Sabine Grunwald, Matt Macander, Jacquie Foss , Mike Sousa  
+
+## Updates on action items from August
+I consolidated all comments on the data sharing agreement template and am attaching the current version 1.2 (dated 08SEP2023) here. Matt - please use this template as you engage on the Conoco and Hilcorp datasets - let me know if you think anything should be modified further as you begin discussions with those entities.
+
+## Update/Review/Discussion - Data Curation and Aqcuisition
+Reach out to AIDEA for Susitna-Watana data
+For non-digital NRCS data perhaps also get in touch with Chris Sabastio, former Fairbanks SS Lead - Jacquie will facilitate that contact
+USFS database is a flat file with key information for each pedon
+
+## Recent find of NRCS non-digital data in critical areas of the state
+Discussed recent find of Mark Clark STATSGO pedons (~150) not in NASIS in the NRCS Wasilla office. Nic's group will work on getting these in NASIS. 
+
+## GEMS updates
+Irf will give an update in October.
+
+Oral presentation abstract for 2024 Pedometrics conference - due 15OCT. Nic will get an initial draft to this group by next Friday and request comments/edits. Everyone on this email group will be invited to be a co-author on the presentation.
+
+## Other business
+Pedometrics 2024 abstracts are due 15OCT2023
+
+### Action Items
+Nic draft pedometrics abstract and share with group for feedback
