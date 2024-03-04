@@ -6,7 +6,7 @@ project:
 book:
   title: "Alaska Soil Data Bank Project Meeting Minutes and Message Archive"
   author: "N.A. Jelinski, I.H. Ainuddin and the AKSDB Team"
-  date: "09-December-2023"
+  date: "`r format(Sys.time(), '%d %B, %Y')`"
   # cover-image: "aksdb-badge-02.png"
   
   chapters:
