@@ -13,6 +13,7 @@ book:
     - index.qmd
     - part: meeting-minutes.qmd
       chapters:
+        - minutes-09FEB2024.qmd
         - minutes-12JAN2024.qmd
         - minutes-08DEC2023.qmd
         - minutes-10NOV2023.qmd
@@ -30,6 +31,9 @@ book:
         - minutes-24OCT2022.qmd
     - part: message-archive.qmd
       chapters:
+        - messages-04MAR2024.qmd
+        - messages-13FEB2024 NCE Request.qmd
+        - messages-08FEB2024.qmd
         - messages-10JAN2024.qmd
         - messages-01DEC2023.qmd
         - messages-09NOV2023.qmd

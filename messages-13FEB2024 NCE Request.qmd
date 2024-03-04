@@ -1,0 +1,24 @@
+# [AKSDB] Reminder: December Meeting This Friday (12/8) : 9AM AK, 11AM Mountain, 12PM CST, 1PM Eastern) + Agenda
+
+# Project Update and Milestones
+Over the 17 months, the Alaska Soil Data Bank (AKSDB) project has made significant progress in compiling and centralizing previously fragmented or inaccessible Alaskan soil data into a harmonized database. Key milestones achieved include establishing a collaborative framework, acquiring priority legacy datasets, developing metadata standards, and initiating modeling workflows.  
+
+## Collaborative Framework
+
+A multidisciplinary team spanning over 10 institutions has coalesced, encompassing expertise in pedology, geospatial analysis, database development, high performance computing, and Alaskan ecoclimatology. Governance infrastructure in place includes regular meetings, project documentation in GitHub repositories, a co-authorship agreement, and subawards to support partner contributions. These foundations have enabled productive data sharing and translation of the vision into tangible outcomes.
+
+## Priority Data Acquisition
+
+Many major legacy soil datasets combined to > 7,000 new pedons in critical areas of Alaska not represented in NASIS have been successfully acquired, spanning federal agencies, industry partners, and academic institutions. 
+
+## Metadata Architecture   
+
+Thoughtful metadata standards have been developed to capture relevant attributes from heterogeneous datasets. Controlled vocabularies, field ontologies, quality rankings, and precision tags enable unified queries across aggregated collections. Raw source data also remains archived, maintaining provenance links to original datasets. This metadata hierarchy strikes a balance between harmonization and fidelity.
+
+## Modeling Workflows   
+
+Covariate data compilation is progressing, leveraging resources like downscaled climate data and remote sensing products. By April 2024, a downsized test harmonized dataset will feed test models for predicting soil taxonomic classifications across Alaska at 30 meter resolution. This framework can integrate new data over time while expanding output variables beyond taxonomy alone to soil carbon, permafrost, and other key indicators. 
+
+## Revised Timeline
+
+Given solid progress, the group is requesting a 12 month no-cost extension, with a new end date of September 2025. This enables developing enhanced datasets and analyses beyond the originally planned deliverables. In summary, strong partnerships, datasets, and tools now exist as a foundation for generating new soil mapping products and publications over the next 2 years. Additional funding proposals for follow-on work are also envisioned capitalizing on AKSDB momentum.

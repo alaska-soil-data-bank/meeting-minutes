@@ -1,0 +1,272 @@
+# AKSDB Team Meeting Minutes 11AUG2023
+
+Attendees: Nic Jelinski, Sabine Grunwald, Matt Macander, Colby Brungard, Irfan Ainuddin, Sue Ives, Frances Biles, Dave D'Amore, Jacquie Foss      
+
+### Project overview for new USFS attendees
+Jacquie – better systems for managing veg data, spatially explicit veg data in other systems, will need to figure how to connect.
+FIA data – veg data database, with a few soil points.
+J - good to know if veg data exists, if so where does it exist.
+Soils 2026 – maybe Rob Vaughn at Gtech? Stella Smith?
+Geotechnical excellence application center?
+Dave – Harmonized data for digital soil  mapping – isnt gonna happen?, spatial integrity is suspect.
+
+### Action Items
+NEED: Flags for data accuracy
+Github – add Dave to github
+Dave - Template to send data over?
+
+# AKSDB Team Meeting Minutes 10NOV2023
+
+Attendees: Nic Jelinski, Josh Minai, Irfan Ainuddin, Dave D'Amore Meeting recording: [NOV Meeting Recording GMT20231110 180508 Recording 1590x798](https://youtu.be/tehz6JBzAF4)
+
+## Opening
+
+-   Nic - Argonne Trip Summary
+-   Neil Pastick, may have a pos-doc mapping peat lands in alaska, Nic will reach out to him to see if they are interested in joining
+-   Nic invited Josh because his work is very closely related to AKSDB work
+
+## Introductions w/ new member Josh Minai - DSM Skillset from Purdue
+
+Working at Argonne National lab with Julie Jastrow and Roser Matamala, mapping carbon stocks and C:N ratio in alaska. Initially started with a small transect to map C and N stocks. Working on higher spatial resolution map (higher than 60m resolution). Josh is looking for higher res data. Cant map stocks using depth intervals because of variability in Perma/cryoturbated soils.
+
+Josh - Ummakant? / Mishra's 2014 Carbonstock predictions from 2014,
+
+Mapping carbonstocks to align with Earth System model. They worked on carbon stocks to 1m at 60m resolution. Conducted second stocks maps looking at co-variates at a coarser spatial resolution,
+
+## Dave Re-Introduction -
+
+```         
+Research soil scientist in PNW research station in Juno in Alaska, PhD in Fairbanks. They use NRCS database but also curate their own pedon data thats not into the NRCS database, feel it will integrate with our project well. They have ~50 pedon data in peatlands which is much greater than NRCS available data atm.
+Have ensemble model paper coming out soon on predicting carbon stocks soon. Comprehensive model for all western us states alaska & hawaii, and may include some canadian pedon data
+```
+
+Nic follow-up questions for Dave Upcoming paper is about evaluating error in point based carbon stocks? D - How good is any one model doing, if we combine all of it and aggregate error, to determine a mean, allow for model comparison against the aggregate. D - Not necessarily better or worse than individual model but allows for comparison D - Interested in C/N ration J - CN ratio, difficult with co-variates.... Also map C and N individually then compare C/N ratio VS mapping CN directly What was the input datasets for the paper in review? SSURGO, G-SOCK??(sp), WOSIS, Northern Circumpolar, ? , ?, McNicke?, Statsgo, canadian soil carbon, N - State effort in MN, starting on lowland conifer and peat predictions, Randy Kolka mentioned a larger program is that related to Dave's project? D - no? D's project is specific to SE alaska, but tries to collect as much data as possible D - Grant Domke (northern usfs research station) -- Improve FIA soil approach, switch is rudimentary... N - Josh, do you know the datasets that ummakant used that were alaska databases that went into his model? J - NRCS .... Not as much access to data was a challenge, but potentially got data from russians. J has data that is X,Y and SOC stocks, depth of active layer -- no metadata, julie may know others with w/ original data. J - Access to more data and share data w/ others.... Can share what he's done next time, has created 30m (GSIM? IFSAR?) J - 5m would be too many pixels to predict on N - goal is carbon and ... pointers to different datasets This project raw data intact and tagging metadata tags Controlled vocabular taxonomy, with a set of tags for each field in metadata sets, and we will use scripts to query based on tags. Will maintain a raw dataset that points back to repo/source and improving metadata. Harmonizing data will be a secondary step Ideally, the datasets will be useful in future applications as well D - NSF grant w/ canadian and us to harmonize data so a good start in crossing political boundaries, a working group of people has been established D - better to centralize in a repository at AKSDB vs handing off to individual researchers/groups which is good for transparency D - IFSAR in moist wet mountainous steep terrain is difficult Testing across steep slopes you start seeing "bathtubs" from clearcuts, artifacts from canopy heights. Pushing towards lidar Careful where to apply the IFSAR J - GDM 34m.... Seems to be ok "Nic gives you candy before the diagnosis" J - thinking about going coarser for CN prediction data N - going to go through points
+
+## October Meeting Recap and Action Items
+
+Met in october and talked about GEMs platform and workflow Update on datasets - Matt McCander working on engaging on 2 big ticket datasets - Conoco Phillips and Hillcorp datasets. Collected on northslope, good spatial coverage and setup data sharing agreements. BLM data, w/ Rocky & Tim as collaborators, ACC UA-Anchorage
+
+## Overview of new items on GitHub repo and organization
+
+Github -- metadata & workflow for entire project overview Data completeness quality ranking
+
+### Data completeness, geospatial data quality, and classification quality rankings
+
+Geospatial data quality rankings (building from Colby) Some breakouts by decade due to GPS accuracy in GPS over time Soil Clasisfication quality rankings overview A goal of project is to create soil class maps Controlled vocabularies available on Github Overview of Hierarchical metadata tags Hierarchical allows for specificity or ambiguity in data querying from primary AKSDB dataset Not changing header data of original datasets, the harmonizing will be based on tags Co-Authorship agreement up on github as well Table of Co-variates Agreement goals are to aggregate data and create soil maps as first step, but more applications can come out of this aggregated data than our deliverables
+
+### Action items
+
+Prepare small USFS dataset (Dave peat depth) for integration in prep for pulling in larger USFS datasets D - Working on how to integrate their database with ours N - Best thing is to have a separate CSV for metadata when you deliver Irf will send an example light metadata csv to Dave
+
+Action Items IRF - Send Dave a metadata example / template from the ABR data
+
+
+# AKSDB Team Meeting Minutes 10MAR2023
+
+## Agenda and Minutes: 
+
+### Updates on action items from previous meeting 
+1. Nic/Matt/Sue had conversation with NPS regarding data use/data sharing
+2. Mike and Nic had a conversation with Ben Stratton and Tina Boucher (BLM)
+
+### Update/review/discussion re: data sharing agreements/memoranda of understanding  
+1. **NPS Data**
+      - Per conversation with Parker Martin: NPS data is good to use, NPS not worried about authorship, however Nic will get in touch with Dave Swanson
+      - ABR has NPS data in the legacy database, but there is other data in IRMA and elsewhere
+      - Nic will get in touch with Dave Swanson (NPS), Matt will get in touch with Carl (NPS)
+2. **BLM Data**
+      - Mike & Nic  had a convo w. Benjamin stratton, ….soils data person (integrated water and aquatics program director) for BLM. BLM AIM stuff probably most related to soil
+      - Tina Boucher …. At BLM  was from heritage program
+      - Mike & nic convo with ben, tina and need to touch base with Matt Ferderbar; Most data is centrally held but may have some decentralized 
+      - AIM data usage may have some caveats regarding usage in certain areas.
+      - Sue: ABR may have AIM data from BLM for at least soil data
+3. **USFS Data**
+      - Nic started talking w. Forest service, jackie foss and Dave D'Amore – have significant data for SE. And scanned pdf field forms….not in a digital forms.
+4. **Other Sources**
+    - Data from chien-liu fully available with authorship.
+    - ABR – conocophillips
+    - Shell & ??? - public domain & included soils data
+    - Fish & Wildlife – similar to park service – Hillmar iis data and monitoring person
+    - Legacy database - riparian  & wetlands data
+    - 
+
+5. **TODOs**
+    - Major action items for Nic and Irfan: 
+      - Authorship guidelines & data sharing authorship levels.
+      - Publication Data…. Tiers of authorship… for author data that is shared.
+      - Sabine suggestion: Common sharing licensing scheme…. & derivative products… may already exist nicely.
+    - Major action item for Sue: Deliver NPS data from ABR legacy database to Nic and Irf
+
+6. **Looking Forward: Future Meetings**
+      - Will continue to hold monthly meetings, same timeslot through the growing season - people will join as they can throughout the summer.
+
+# AKSDB Team Meeting Minutes 10FEB2023
+
+## Agenda and Minutes: 
+
+### Updates on action items from previous meeting 
+1. Nic and Irfan completed further drafting of project metadata document, which can be found here: https://alaska-soil-data-bank.github.io/project-metadata/
+2. Still need to get Sabine and Colby set up as GitHub users
+3. Sue Ives (ABR) and Michael Sousa (NRCS) will now be joining our team meetings
+
+### Discussion regarding draft project metadata document under development - sections to add in outline, other considerations 
+1. **Review project metadata document draft**
+      - Colby could not attend, sent comments over email: I reviewed the metadata and don’t have any additional comments except that perhaps on the data management plan we might not want to say that this data will be formatted for NASIS ingestion before going into GEMS (section 1.2). I think that the benefit of GEMS is that it will allow the harmonization/standardization of pedon data from disparate sources. Also, we don’t have the ability to add to NASIS.
+      - Nic: we will have access to add new points to NASIS - being granted by Jessica (Alaska Region Soil Survey Lead).
+
+### Review and discussion re: data sharing agreements/memoranda of understanding and authorship guidelines and considerations
+    - Major action items: 
+      - Nic needs to collect and draft both of these
+
+### **Looking Forward: Future Meetings**
+
+# AKSDB Team Meeting Minutes 09FEB2024
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Attendees: Matt Macander (ABR), Sue Ives (ABR), Neal Pastick (USGS), Jacquie Foss (USFS), Mike Sousa (NRCS), Travis Nauman (NRCS), Josh Minai (DOE), Timm Nawrocki (ACCS), Katrina Nelson (UMN), Erin Rooney (NRCS), Jenny Richter (USFS), Dave D'Amore (USFS), Frances Biles (USFS).
+
+Recording is here: [**FEB Meeting Recording GMT20231208 180337 Recording 1920x1080**](https://youtu.be/Nd8jNr_rAy0)
+
+## Project Updates
+### Project Github Repo
+- Repo made public so links are shareable
+- Key repos to access:
+  - Project meeting minutes and archived recordings: https://alaska-soil-data-bank.github.io/meeting-minutes/
+  - Project metadata and documentation : https://alaska-soil-data-bank.github.io/project-metadata/
+- Co-authorship agreement included in metadata
+
+### Action Items Review
+- Timm to deliver AIM/BLM & adjacent datasets before field season
+- Matt & Sue finalizing data sharing agreements with private entities
+- USFS team migrating data to shared Box folder
+- Potential future call with Colby on digitization approaches 
+
+### Data Curation Updates
+- Wrangling legacy pedon data from Northern Alaska (~200 viable data points)
+- Acquiring ~100 pedons from Copper River Basin & Yukon Delta
+- Finalizing access for 1,700+ pedons from private datasets  
+- Migrating multiple USFS legacy datasets (20+ pedons so far) 
+- Gathering additional USFS descriptive scans (8,000+)
+- Integrating geotechnical borehole data (permafrost/ground-ice focused)
+- Current total count nearing 7,000 pedons, much not in existing databases
+
+### NRCS Data Templates  
+- Travis reviewing updated PedonPC template for standard data formatting
+- Will distribute once finalized
+
+### Science Products Discussion
+- Current agreement deliverables:
+  - Centralized Alaska Soil Data Bank - data papaer
+  - Manuscript on approach, architecture, and content
+  - Statewide soil order/suborder predictions at 30m resolution - soil mapping paper
+- Opportunities:
+  - Expand modeling variables based on available data
+  - Develop hierarchical modeling approach
+  - Enable periodic model updates as new data added
+  - Integrate temporal data on fire/climate
+  - Explore additional components like ground ice and permafrost
+- Follow-on Work
+  - Develop collaborative proposals for extended analyses
+  - Engage partners at USGS, NSF, and other agencies
+  - Continue discussions on scientific possibilities
+
+### Project Timeline  
+- Targeting completion of initial databank and statewide property modeling by Fall 2024
+- Planning no-cost extension through September 2025 to enable further analyses
+
+## Action Items
+- Nic to schedule call with NCRS team and agreement PIs/CoPIs
+- Nic to share data modeling template once finalized
+
+## Next Meeting
+The next meeting is scheduled for March 8th, 2024.
+
+
+# AKSDB Team Meeting Minutes 08SEP2023
+Attendees: Nic Jelinski, Sabine Grunwald, Matt Macander, Jacquie Foss , Mike Sousa  
+
+## Updates on action items from August
+I consolidated all comments on the data sharing agreement template and am attaching the current version 1.2 (dated 08SEP2023) here. Matt - please use this template as you engage on the Conoco and Hilcorp datasets - let me know if you think anything should be modified further as you begin discussions with those entities.
+
+## Update/Review/Discussion - Data Curation and Aqcuisition
+Reach out to AIDEA for Susitna-Watana data
+For non-digital NRCS data perhaps also get in touch with Chris Sabastio, former Fairbanks SS Lead - Jacquie will facilitate that contact
+USFS database is a flat file with key information for each pedon
+
+## Recent find of NRCS non-digital data in critical areas of the state
+Discussed recent find of Mark Clark STATSGO pedons (~150) not in NASIS in the NRCS Wasilla office. Nic's group will work on getting these in NASIS. 
+
+## GEMS updates
+Irf will give an update in October.
+
+Oral presentation abstract for 2024 Pedometrics conference - due 15OCT. Nic will get an initial draft to this group by next Friday and request comments/edits. Everyone on this email group will be invited to be a co-author on the presentation.
+
+## Other business
+Pedometrics 2024 abstracts are due 15OCT2023
+
+### Action Items
+Nic draft pedometrics abstract and share with group for feedback
+
+
+# AKSDB Team Meeting Minutes 08DEC2023
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Attendees: Matt Macander (ABR), Sue Ives (ABR), Sabine Grunwald (UF), Neil Pastick (USGS), Jacquie Foss (USFS), Mike Sousa (NRCS), Travis Nauman (NRCS), Colby Brungard (NMSU), Josh Minai (DOE), Timm Nawrocki (ACCS), Irfan Ainuddin (UMN).
+
+Recording is here: [**DEC Meeting Recording GMT20231208 180337 Recording 1920x1080**](https://youtu.be/KMn54PS6mnc)
+
+## Project Updates
+
+### GitHub Organization Review
+
+The group has a GitHub organization with repositories for project metadata, meetings, reporting documents, etc. Nic proposed flipping it from private to public access to facilitate sharing links. Private datasets would be removed first. The group discussed and agreed this would be acceptable.
+
+### Data Curation Progress
+
+-   Over 700 additional hard copy NRCS pedons were identified that can be added to NASIS, including \~500 from Fairbanks and \~220 from Wasilla. These will help fill spatial gaps in under-represented areas.
+-   Retiring NPS scientist Dave Swanson will compile unavailable National Park Service data to contribute.
+-   A tentative target was set to have a preliminary harmonized soil dataset compiled by March to start developing modeling workflows, likely starting with taxonomy.
+
+### Spatial Data Summary
+
+Nic presented a spatial overview of compiled data so far across the state.
+
+## Modeling and Covariates Discussion
+
+### Timelines
+
+Matt asked about timelines for getting covariates and modeling workflows ready. The current aim is to have harmonized site data compiled by end of March. Colby and Matt will continue advancing statewide covariate development accordingly.
+
+### Model Resolution
+
+For elevation data, 10m vs 30m resolution was discussed. 30m may be more appropriate for statewide modeling, while 10m could help represent landscape heterogeneity. IfSar can have issues in forested areas. ERA5 land data could also be an option.
+
+### Model Inputs
+
+-   For climate data, downscaled PRISM is a good statewide option. Alternate sources mentioned were SNAP and ERA5 land products.
+-   Incorporating remote sensing data could help capture pre/post disturbance conditions if site data is timestamped appropriately.
+
+### Model Outputs
+
+While initial modeling may focus more on soil taxonomy, properties like organic layer thickness will also emerge as interesting continuous outputs not specified in the agreement. The group discussed starting with a draft taxonomy-focused effort first, then iterating with additional data later.
+
+## Other Notes
+
+Additional discussion touched on incorporating newer NASIS data, using bulk density to estimate carbon stocks, and the need for additional nitrogen data.
+
+## Action Items
+
+-   Nic will reach out to USFS representatives not present about making the GitHub repository public.\
+-   Nic will meet with Neil from USGS to discuss modeling approaches.\
+-   Nic will compile a spatial overview of additional NRCS pedons for January's meeting.
+-   Matt and Colby will continue advancing statewide covariate development.
+
+## Next Meeting
+
+The next meeting is scheduled for January 12, 2023.

@@ -1,0 +1,63 @@
+# AKSDB Team Meeting Minutes 09FEB2024
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Attendees: Matt Macander (ABR), Sue Ives (ABR), Neal Pastick (USGS), Jacquie Foss (USFS), Mike Sousa (NRCS), Travis Nauman (NRCS), Josh Minai (DOE), Timm Nawrocki (ACCS), Katrina Nelson (UMN), Erin Rooney (NRCS), Jenny Richter (USFS), Dave D'Amore (USFS), Frances Biles (USFS).
+
+Recording is here: [**FEB Meeting Recording GMT20231208 180337 Recording 1920x1080**](https://youtu.be/Nd8jNr_rAy0)
+
+## Project Updates
+### Project Github Repo
+- Repo made public so links are shareable
+- Key repos to access:
+  - Project meeting minutes and archived recordings: https://alaska-soil-data-bank.github.io/meeting-minutes/
+  - Project metadata and documentation : https://alaska-soil-data-bank.github.io/project-metadata/
+- Co-authorship agreement included in metadata
+
+### Action Items Review
+- Timm to deliver AIM/BLM & adjacent datasets before field season
+- Matt & Sue finalizing data sharing agreements with private entities
+- USFS team migrating data to shared Box folder
+- Potential future call with Colby on digitization approaches 
+
+### Data Curation Updates
+- Wrangling legacy pedon data from Northern Alaska (~200 viable data points)
+- Acquiring ~100 pedons from Copper River Basin & Yukon Delta
+- Finalizing access for 1,700+ pedons from private datasets  
+- Migrating multiple USFS legacy datasets (20+ pedons so far) 
+- Gathering additional USFS descriptive scans (8,000+)
+- Integrating geotechnical borehole data (permafrost/ground-ice focused)
+- Current total count nearing 7,000 pedons, much not in existing databases
+
+### NRCS Data Templates  
+- Travis reviewing updated PedonPC template for standard data formatting
+- Will distribute once finalized
+
+### Science Products Discussion
+- Current agreement deliverables:
+  - Centralized Alaska Soil Data Bank - data papaer
+  - Manuscript on approach, architecture, and content
+  - Statewide soil order/suborder predictions at 30m resolution - soil mapping paper
+- Opportunities:
+  - Expand modeling variables based on available data
+  - Develop hierarchical modeling approach
+  - Enable periodic model updates as new data added
+  - Integrate temporal data on fire/climate
+  - Explore additional components like ground ice and permafrost
+- Follow-on Work
+  - Develop collaborative proposals for extended analyses
+  - Engage partners at USGS, NSF, and other agencies
+  - Continue discussions on scientific possibilities
+
+### Project Timeline  
+- Targeting completion of initial databank and statewide property modeling by Fall 2024
+- Planning no-cost extension through September 2025 to enable further analyses
+
+## Action Items
+- Nic to schedule call with NCRS team and agreement PIs/CoPIs
+- Nic to share data modeling template once finalized
+
+## Next Meeting
+The next meeting is scheduled for March 8th, 2024.

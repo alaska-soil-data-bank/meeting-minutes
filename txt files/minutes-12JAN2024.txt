@@ -1,0 +1,48 @@
+# AKSDB Team Meeting Minutes 12JAN2024
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Attendees: Matt Macander (ABR), Sue Ives (ABR), Sabine Grunwald (UF), Jacquie Foss (USFS), Travis Nauman (NRCS), Erin Rooney (NRCS), Colby Brungard (NMSU), Josh Minai (DOE), Timm Nawrocki (ACCS), Frances Biles (USFS), Jenny Richter (USFS), Irfan Ainuddin (UMN).
+
+Recording is here: [**JAN Meeting Recording GMT20240112-180735_Recording_2812x13340**](https://youtu.be/lKIH0GNUzws)
+
+## Project Updates
+
+-   Github repo made public in December
+-   Acquired Jim Bochheim's northern Alaska pedon database (\~500 pedons)
+-   Waiting on additional BLM data sets from Timm
+-   Sue and Matt continuing conversations with industry partners about data sharing
+-   Compiling additional geotechnical borehole logs - useful for permafrost and ground ice but less for soil data
+-   Discussed digitizing and importing legacy USFS soil data
+-   Planning for additional science products building on initial soil mapping - integrating temporal component of datasets and process-based permafrost models
+
+## Discussion on USFS Soil Data
+
+Jacquie Foss (USFS)) shared that they have a large amount of legacy soil pedon data that has not been digitized. This includes detailed pedon descriptions from over 1000 sites across southeast Alaska. Currently this data exists as PDFs and scanned field sheets stored on a Sharepoint site that is difficult to access and utilize.
+
+There was extensive discussion around options to make this valuable soil data more accessible. Jacquie expressed interest in an intake solution that resembles the standard soil pedon field sheets to facilitate entering the data. Travis discussed the NCSS PedonPC Excel template and Survey123 as potential options that provide import capability to NASIS. However, he noted there is no consensus on the best approach across different soil data collectors.
+
+The group discussed the challenges around obsolete soil horizon nomenclature and taxonomy used in older surveys. Manual transcription would be needed in many cases along with lookup tables to translate to modern terminology. Colby Brungard shared his experience leading a student project to digitize over 3000 legacy pedons in New Mexico. He offered to briefly present on this project in an upcoming meeting to share lessons learned.
+
+In terms of next steps, Jacquie will upload their available digitized soil data to the Box folder shared by Nic. Follow up side discussions will also take place exploring options to transform the legacy PDF data into accessible electronic records. Nic suggested exploring use of undergraduate researchers to assist with transcription of select records within the project timeframe.
+
+## Action Items
+
+-   Timm to deliver AIM and other data sets before summer field season\
+-   Matt to share data request templates and follow up with industry partners re: data access\
+-   Nic to set up Box folder and share with USFS\
+-   USFS to share available soil data via Box folder\
+-   Follow up side call to discuss USFS data upload and potential digitization effort
+-   Travis to investigate options for USFS data templates and entry to NASIS\
+-   Discuss data digitization lessons learned in later meeting (Colby & Nic)
+-   Develop science products/funding agenda item for February meeting (Nic)
+
+## Conclusion
+
+The project continues to move forward with additional datasets being identified and acquired. New potential science products related to temporal dynamics and permafrost modeling are being considered in addition to the initial digital soil mapping goals. Action items center on acquiring priority datasets, discussions around entering legacy soil data, and planning next steps for follow-on work and funding proposals. Exciting potential continues for the project with increasing collaborations.
+
+## Next Meeting
+
+The next meeting is scheduled for February 9, 2024.
