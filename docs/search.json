@@ -564,5 +564,49 @@
       "Message Archive",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>[AKSDB] Agenda: February Meeting Friday (2/9) : 9AM AK, 11AM Mountain, 12PM CST, 1PM Eastern)</span>"
     ]
+  },
+  {
+    "objectID": "minutes-08MAR2024.html",
+    "href": "minutes-08MAR2024.html",
+    "title": "2  AKSDB Team Meeting Minutes 08MAR2024",
+    "section": "",
+    "text": "2.1 Introductions\nThe meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:\nNic Jelinski (University of Minnesota), Matt Macander (ABR, Fairbanks, Alaska), Sue Ives (ABR, Anchorage, Alaska), Timm Nawrocki (University of Alaska, Anchorage), Katrina Nelson (University of Minnesota), Irfan Ainuddin (University of Minnesota), Travis Nauman (National Soil Survey Center, Moab, Utah), Dave D’Amore (Forest Service Pacific Northwest Research Station, Juneau, Alaska), Suzann Kienast-Brown (USDA NRCS National Soil Survey Center), Erin Rooney (National Soil Survey Center), Jackie Foss (Forest Service, Tongass National Forest, Southeast Alaska), Francis Biles (Forest Service Pacific Northwest Research Station, Juneau, Alaska)\nRecording is here: March Meeting Recording GMT20240308 180413 Recording 1920x1080",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Team Meeting Minutes 08MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-08MAR2024.html#project-updates",
+    "href": "minutes-08MAR2024.html#project-updates",
+    "title": "2  AKSDB Team Meeting Minutes 08MAR2024",
+    "section": "2.2 Project Updates",
+    "text": "2.2 Project Updates\n\n2.2.1 Data Curation and Acquisition Progress\n\nNo cost extension request submitted, extending project through September 2025\nNic shared overview of overlap between ISCN, WoSIS, and NASIS datasets for Alaska\n\nWoSIS has ~2,200 data points, mostly from NASIS, ISCN\nISCN has ~2,800 data points for Alaska\nNASIS is the underpinning for many datasets\n\nAKSDB Project currently has 8,896 non-duplicated data points as of Feb 8\nAdditional acquisitions in progress:\n\nBockheim data archive harmonized by Katrina (~180 points)\nForest Service soil and veg observations (1000s of points)\nPrivate datasets (&gt; 2,000 points)\nVillage geotechnical report permafrost/ice content data (1000s)\n\nEstimated additional 4000-5000 points from above acquisitions\nGoal is to deliver public data to NASIS, other repositories, link back to raw data\n\n\n\n2.2.2 NASIS Pull Update\n\nTool from Adolfo allows extraction of all Alaska data from NASIS (~34k entries)\n\n7,200 NASIS points, 1000s from pedon PC imports\n3,700 Forest Service NRM pedon points\n15,000 points from “Alaska SS FDD”\nLots of potential overlap, more investigation needed\n\nExcel template created for importing data into NASIS\n\n\n\n2.2.3 Metadata Tagging and Harmonization Workflow (Irfan)\n\nTagging raw datasets with hierarchical metadata codes to enable harmonization\nFunctions created to search and pull data based on metadata tags\nAllows flexible output table creation based on user needs\nCrosswalks being developed between project codes and NCSS, WoSIS, ISCN\n\n\n\n2.2.4 Covariate Resolution Discussion\n\nCurrent 10m DEM for all Alaska watersheds + some Canada (from IFSAR)\nProposed 30m terrain derivatives for project deliverables\n10m resolution preferred for alignment with other vegetation mapping projects if feasible\nConcerns raised about IFSAR/SRTM artifacts and limitations for terrain modeling\n\nPoor vegetation removal in forested areas, poor interpolation in steep/coastal areas\n\nFurther discussion needed to balance project needs and broader applicability",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Team Meeting Minutes 08MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-08MAR2024.html#action-items",
+    "href": "minutes-08MAR2024.html#action-items",
+    "title": "2  AKSDB Team Meeting Minutes 08MAR2024",
+    "section": "2.3 Action Items",
+    "text": "2.3 Action Items\n\nNic to follow up on NDA and get to Matt/Sue when complete\nNic to create Box folder Travis to upload NASIS snapshot to\nNic to convene small group to discuss covariate resolution and prepare agenda item for April meeting\nProject team members to review NASIS export and identify any duplication with other datasets\nFrancis/Jackie to continue identifying corrected locations for SE AK pedons in NASIS\nDave/Jackie to share pedon summaries for SE AK research project with Nic",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Team Meeting Minutes 08MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-08MAR2024.html#next-meeting",
+    "href": "minutes-08MAR2024.html#next-meeting",
+    "title": "2  AKSDB Team Meeting Minutes 08MAR2024",
+    "section": "2.4 Next Meeting",
+    "text": "2.4 Next Meeting\nThe next meeting is scheduled for March 8th, 2024.",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Team Meeting Minutes 08MAR2024</span>"
+    ]
   }
 ]

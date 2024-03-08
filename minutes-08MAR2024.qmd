@@ -1,0 +1,65 @@
+# AKSDB Team Meeting Minutes 08MAR2024
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Nic Jelinski (University of Minnesota), Matt Macander (ABR, Fairbanks, Alaska), Sue Ives (ABR, Anchorage, Alaska), Timm Nawrocki (University of Alaska, Anchorage), Katrina Nelson (University of Minnesota), Irfan Ainuddin (University of Minnesota), Travis Nauman (National Soil Survey Center, Moab, Utah), Dave D'Amore (Forest Service Pacific Northwest Research Station, Juneau, Alaska), Suzann Kienast-Brown (USDA NRCS National Soil Survey Center), Erin Rooney (National Soil Survey Center), Jackie Foss (Forest Service, Tongass National Forest, Southeast Alaska), Francis Biles (Forest Service Pacific Northwest Research Station, Juneau, Alaska)
+
+Recording is here: [**March Meeting Recording GMT20240308 180413 Recording 1920x1080**](https://youtu.be/42RetfhA7IM)
+
+## Project Updates
+
+### Data Curation and Acquisition Progress
+
+-   No cost extension request submitted, extending project through September 2025
+-   Nic shared overview of overlap between ISCN, WoSIS, and NASIS datasets for Alaska
+    -   WoSIS has \~2,200 data points, mostly from NASIS, ISCN
+    -   ISCN has \~2,800 data points for Alaska
+    -   NASIS is the underpinning for many datasets
+-   AKSDB Project currently has 8,896 non-duplicated data points as of Feb 8
+-   Additional acquisitions in progress:
+    -   Bockheim data archive harmonized by Katrina (\~180 points)
+    -   Forest Service soil and veg observations (1000s of points)
+    -   Private datasets (\> 2,000 points)
+    -   Village geotechnical report permafrost/ice content data (1000s)
+-   Estimated additional 4000-5000 points from above acquisitions
+-   Goal is to deliver public data to NASIS, other repositories, link back to raw data
+
+### NASIS Pull Update
+
+-   Tool from Adolfo allows extraction of all Alaska data from NASIS (\~34k entries)
+    -   7,200 NASIS points, 1000s from pedon PC imports
+    -   3,700 Forest Service NRM pedon points
+    -   15,000 points from "Alaska SS FDD"
+    -   Lots of potential overlap, more investigation needed
+-   Excel template created for importing data into NASIS
+
+### Metadata Tagging and Harmonization Workflow (Irfan)
+
+-   Tagging raw datasets with hierarchical metadata codes to enable harmonization
+-   Functions created to search and pull data based on metadata tags
+-   Allows flexible output table creation based on user needs
+-   Crosswalks being developed between project codes and NCSS, WoSIS, ISCN
+
+### Covariate Resolution Discussion
+
+-   Current 10m DEM for all Alaska watersheds + some Canada (from IFSAR)
+-   Proposed 30m terrain derivatives for project deliverables
+-   10m resolution preferred for alignment with other vegetation mapping projects if feasible
+-   Concerns raised about IFSAR/SRTM artifacts and limitations for terrain modeling
+    -   Poor vegetation removal in forested areas, poor interpolation in steep/coastal areas
+-   Further discussion needed to balance project needs and broader applicability
+
+## Action Items
+
+-   Nic to follow up on NDA and get to Matt/Sue when complete
+-   Nic to create Box folder Travis to upload NASIS snapshot to
+-   Nic to convene small group to discuss covariate resolution and prepare agenda item for April meeting
+-   Project team members to review NASIS export and identify any duplication with other datasets
+-   Francis/Jackie to continue identifying corrected locations for SE AK pedons in NASIS
+-   Dave/Jackie to share pedon summaries for SE AK research project with Nic
+
+## Next Meeting
+
+The next meeting is scheduled for March 8th, 2024.
