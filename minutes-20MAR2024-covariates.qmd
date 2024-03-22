@@ -1,0 +1,59 @@
+# AKSDB Covariate Discussion Meeting Minutes 20MAR2024
+
+## Recording: [**AKSDB Covariate Discussion 20MAR2024 video1743264410**](https://youtu.be/5S6acv2mmTw)
+
+## Attendees
+- Colby Brungard, New Mexico State University
+- Neal Pastick, USGS EROS
+- Josh Minai, Argonne National Lab
+- Sabine Grunwald, University of Florida
+- Travis Nauman, USDA-NRCS
+- Timm Nawrocki, University of Alaska Anchorage
+- Matt Macander, ABR
+- Francis Biles, USFS
+- Dave White, USDA-NRCS
+
+## Agenda
+1. Brief introductions
+2. Discussion on developing covariates for the Alaska Soil Data Bank project
+   - Resolution: 10 meters vs. 30 meters
+   - Data sources: IFSAR, ASTER, Copernicus, etc.
+   - Terrain derivatives
+3. Potential follow-on projects and their resolution requirements
+4. Decisions and action items
+
+## Discussion
+
+### Covariate Resolution
+Colby Brungard led the discussion on developing covariates for the Alaska Soil Data Bank project. The current NRCS agreement states that the project will deliver statewide soil class predictions at 30-meter resolution. However, some team members are working on projects requiring 10-meter resolution data. The question is whether to develop covariates at 10 meters based on the resampled, harmonized 10-meter IFSAR data from Timm and Matt, which would set the stage for bringing in imagery at the same resolution, or to use 30-meter resolution for faster computing times and smaller file sizes.
+
+Matt Macander suggested starting with 30-meter resolution to work out any issues in the process and then consider producing both resolutions, as many terrain metrics can be averaged or aggregated from 10 to 30 meters. Sabine Grunwald noted that finer resolution does not necessarily mean better models, and it is a trade-off between computational time and perceived benefits.
+
+### Data Sources
+Travis Nauman brought up the question of data sources, particularly the challenges with IFSAR data in densely vegetated areas. Alternative data sources such as Copernicus and ASTER were discussed. However, Timm Nawrocki and Francis Biles confirmed that despite its challenges, IFSAR is substantially better than any alternative providing holistic coverage for Alaska.
+
+Francis Biles cautioned about the limitations of IFSAR in southeast Alaska and Kodiak Island, where vegetation removal and accuracy issues persist. Timm Nawrocki added that manual corrections would be needed for high-quality stream networks across the state, but IFSAR remains the best available option for full state coverage.
+
+### Terrain Derivatives
+The group agreed to move forward with IFSAR at a resampled, harmonized 10-meter resolution statewide. Colby Brungard has scripts to calculate 40-43 terrain covariates with different parameter settings, resulting in nearly 200 covariates. These include slope, curvature, potential incoming solar radiation, mass balance index, and wetness index.
+
+### Follow-on Projects
+Participants discussed their requirements for potential follow-on projects:
+
+- Josh Minai: Currently using 30-meter resolution for mapping carbon stocks, nitrogen, and soil properties statewide due to data density considerations.
+- Neal Pastick: The choice of resolution depends on the temporal resolution and the target variable (dynamic vs. static).
+- Matt Macander: Targeting 10-meter resolution for statewide vegetation mapping to capture fine-scale patterns, while using 30-meter Landsat data for time series analysis.
+- Timm Nawrocki: Having both a current 10-meter snapshot and a 30-year time series at 30-meter resolution would be beneficial.
+- Francis Biles: Having the option of both resolutions would be useful for USFS projects.
+
+## Decisions and Action Items
+1. Develop terrain derivative covariates at 10-meter resolution using the resampled, harmonized IFSAR data for maximum flexibility and utility in scaling for future projects.
+2. Nic: Create a comprehensive list of covariates, including terrain derivatives, imagery, and other data sources (e.g., Sentinel-1 and Sentinel-2), and share it with the group for input and collaboration opportunities.
+3. Explore options for making the covariate scripts and data publicly available, considering hosting solutions and long-term maintenance.
+4. Discuss the integration of soil data, vegetation mapping, and photo databases to support future modeling efforts.
+
+## Next Steps
+- Colby Brungard will proceed with generating terrain derivative covariates at 10-meter resolution.
+- Nic will generate a consolidated covariate catalog.
+- The team will investigate options for hosting and distributing covariate scripts and data, considering Google Cloud and other solutions.
+- A follow-up discussion will be scheduled to address the integration of soil data, vegetation mapping, and photo databases.

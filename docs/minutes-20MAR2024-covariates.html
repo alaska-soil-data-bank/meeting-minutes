@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="N.A. Jelinski, I.H. Ainuddin and the AKSDB Team">
-<meta name="dcterms.date" content="2024-03-22">
 
-<title>Alaska Soil Data Bank Project Meeting Minutes and Message Archive</title>
+<title>Alaska Soil Data Bank Project Meeting Minutes and Message Archive - 2&nbsp; AKSDB Covariate Discussion Meeting Minutes 20MAR2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./meeting-minutes.html" rel="next">
+<link href="./minutes-08MAR2024.html" rel="next">
+<link href="./meeting-minutes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-20MAR2024-covariates.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
   </div>
 </li>
@@ -124,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./minutes-20MAR2024-covariates.html" class="sidebar-item-text sidebar-link">
+  <a href="./minutes-20MAR2024-covariates.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span></span></a>
   </div>
 </li>
@@ -373,35 +372,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface"><span class="header-section-number">1</span> Preface</a></li>
+  <li><a href="#recording-aksdb-covariate-discussion-20mar2024-video1743264410" id="toc-recording-aksdb-covariate-discussion-20mar2024-video1743264410" class="nav-link active" data-scroll-target="#recording-aksdb-covariate-discussion-20mar2024-video1743264410"><span class="header-section-number">2.1</span> Recording: <strong>AKSDB Covariate Discussion 20MAR2024 video1743264410</strong></a></li>
+  <li><a href="#attendees" id="toc-attendees" class="nav-link" data-scroll-target="#attendees"><span class="header-section-number">2.2</span> Attendees</a></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda"><span class="header-section-number">2.3</span> Agenda</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">2.4</span> Discussion</a>
+  <ul class="collapse">
+  <li><a href="#covariate-resolution" id="toc-covariate-resolution" class="nav-link" data-scroll-target="#covariate-resolution"><span class="header-section-number">2.4.1</span> Covariate Resolution</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources"><span class="header-section-number">2.4.2</span> Data Sources</a></li>
+  <li><a href="#terrain-derivatives" id="toc-terrain-derivatives" class="nav-link" data-scroll-target="#terrain-derivatives"><span class="header-section-number">2.4.3</span> Terrain Derivatives</a></li>
+  <li><a href="#follow-on-projects" id="toc-follow-on-projects" class="nav-link" data-scroll-target="#follow-on-projects"><span class="header-section-number">2.4.4</span> Follow-on Projects</a></li>
+  </ul></li>
+  <li><a href="#decisions-and-action-items" id="toc-decisions-and-action-items" class="nav-link" data-scroll-target="#decisions-and-action-items"><span class="header-section-number">2.5</span> Decisions and Action Items</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps"><span class="header-section-number">2.6</span> Next Steps</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-20MAR2024-covariates.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Alaska Soil Data Bank Project Meeting Minutes and Message Archive</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>N.A. Jelinski, I.H. Ainuddin and the AKSDB Team </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 22, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -411,9 +409,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Preface</h1>
-<p>This is the meeting minutes and message archive for the Alaska Soil Data Bank Project. The archive is organized into two parts: Meeting minutes and messages.</p>
+<section id="recording-aksdb-covariate-discussion-20mar2024-video1743264410" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="recording-aksdb-covariate-discussion-20mar2024-video1743264410"><span class="header-section-number">2.1</span> Recording: <a href="https://youtu.be/5S6acv2mmTw"><strong>AKSDB Covariate Discussion 20MAR2024 video1743264410</strong></a></h2>
+</section>
+<section id="attendees" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="attendees"><span class="header-section-number">2.2</span> Attendees</h2>
+<ul>
+<li>Colby Brungard, New Mexico State University</li>
+<li>Neal Pastick, USGS EROS</li>
+<li>Josh Minai, Argonne National Lab</li>
+<li>Sabine Grunwald, University of Florida</li>
+<li>Travis Nauman, USDA-NRCS</li>
+<li>Timm Nawrocki, University of Alaska Anchorage</li>
+<li>Matt Macander, ABR</li>
+<li>Francis Biles, USFS</li>
+<li>Dave White, USDA-NRCS</li>
+</ul>
+</section>
+<section id="agenda" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="agenda"><span class="header-section-number">2.3</span> Agenda</h2>
+<ol type="1">
+<li>Brief introductions</li>
+<li>Discussion on developing covariates for the Alaska Soil Data Bank project
+<ul>
+<li>Resolution: 10 meters vs.&nbsp;30 meters</li>
+<li>Data sources: IFSAR, ASTER, Copernicus, etc.</li>
+<li>Terrain derivatives</li>
+</ul></li>
+<li>Potential follow-on projects and their resolution requirements</li>
+<li>Decisions and action items</li>
+</ol>
+</section>
+<section id="discussion" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">2.4</span> Discussion</h2>
+<section id="covariate-resolution" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="covariate-resolution"><span class="header-section-number">2.4.1</span> Covariate Resolution</h3>
+<p>Colby Brungard led the discussion on developing covariates for the Alaska Soil Data Bank project. The current NRCS agreement states that the project will deliver statewide soil class predictions at 30-meter resolution. However, some team members are working on projects requiring 10-meter resolution data. The question is whether to develop covariates at 10 meters based on the resampled, harmonized 10-meter IFSAR data from Timm and Matt, which would set the stage for bringing in imagery at the same resolution, or to use 30-meter resolution for faster computing times and smaller file sizes.</p>
+<p>Matt Macander suggested starting with 30-meter resolution to work out any issues in the process and then consider producing both resolutions, as many terrain metrics can be averaged or aggregated from 10 to 30 meters. Sabine Grunwald noted that finer resolution does not necessarily mean better models, and it is a trade-off between computational time and perceived benefits.</p>
+</section>
+<section id="data-sources" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="data-sources"><span class="header-section-number">2.4.2</span> Data Sources</h3>
+<p>Travis Nauman brought up the question of data sources, particularly the challenges with IFSAR data in densely vegetated areas. Alternative data sources such as Copernicus and ASTER were discussed. However, Timm Nawrocki and Francis Biles confirmed that despite its challenges, IFSAR is substantially better than any alternative providing holistic coverage for Alaska.</p>
+<p>Francis Biles cautioned about the limitations of IFSAR in southeast Alaska and Kodiak Island, where vegetation removal and accuracy issues persist. Timm Nawrocki added that manual corrections would be needed for high-quality stream networks across the state, but IFSAR remains the best available option for full state coverage.</p>
+</section>
+<section id="terrain-derivatives" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="terrain-derivatives"><span class="header-section-number">2.4.3</span> Terrain Derivatives</h3>
+<p>The group agreed to move forward with IFSAR at a resampled, harmonized 10-meter resolution statewide. Colby Brungard has scripts to calculate 40-43 terrain covariates with different parameter settings, resulting in nearly 200 covariates. These include slope, curvature, potential incoming solar radiation, mass balance index, and wetness index.</p>
+</section>
+<section id="follow-on-projects" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="follow-on-projects"><span class="header-section-number">2.4.4</span> Follow-on Projects</h3>
+<p>Participants discussed their requirements for potential follow-on projects:</p>
+<ul>
+<li>Josh Minai: Currently using 30-meter resolution for mapping carbon stocks, nitrogen, and soil properties statewide due to data density considerations.</li>
+<li>Neal Pastick: The choice of resolution depends on the temporal resolution and the target variable (dynamic vs.&nbsp;static).</li>
+<li>Matt Macander: Targeting 10-meter resolution for statewide vegetation mapping to capture fine-scale patterns, while using 30-meter Landsat data for time series analysis.</li>
+<li>Timm Nawrocki: Having both a current 10-meter snapshot and a 30-year time series at 30-meter resolution would be beneficial.</li>
+<li>Francis Biles: Having the option of both resolutions would be useful for USFS projects.</li>
+</ul>
+</section>
+</section>
+<section id="decisions-and-action-items" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="decisions-and-action-items"><span class="header-section-number">2.5</span> Decisions and Action Items</h2>
+<ol type="1">
+<li>Develop terrain derivative covariates at 10-meter resolution using the resampled, harmonized IFSAR data for maximum flexibility and utility in scaling for future projects.</li>
+<li>Nic: Create a comprehensive list of covariates, including terrain derivatives, imagery, and other data sources (e.g., Sentinel-1 and Sentinel-2), and share it with the group for input and collaboration opportunities.</li>
+<li>Explore options for making the covariate scripts and data publicly available, considering hosting solutions and long-term maintenance.</li>
+<li>Discuss the integration of soil data, vegetation mapping, and photo databases to support future modeling efforts.</li>
+</ol>
+</section>
+<section id="next-steps" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="next-steps"><span class="header-section-number">2.6</span> Next Steps</h2>
+<ul>
+<li>Colby Brungard will proceed with generating terrain derivative covariates at 10-meter resolution.</li>
+<li>Nic will generate a consolidated covariate catalog.</li>
+<li>The team will investigate options for hosting and distributing covariate scripts and data, considering Google Cloud and other solutions.</li>
+<li>A follow-up discussion will be scheduled to address the integration of soil data, vegetation mapping, and photo databases.</li>
+</ul>
 
 
 </section>
@@ -808,10 +879,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./meeting-minutes.html" class="pagination-link" aria-label="Meeting Minutes">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Meeting Minutes</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./meeting-minutes.html" class="pagination-link" aria-label="Meeting Minutes">
-        <span class="nav-page-text">Meeting Minutes</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./minutes-08MAR2024.html" class="pagination-link" aria-label="AKSDB Team Meeting Minutes 08MAR2024">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 08MAR2024</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -608,5 +608,71 @@
       "Meeting Minutes",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Team Meeting Minutes 08MAR2024</span>"
     ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html",
+    "href": "minutes-20MAR2024-covariates.html",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "",
+    "text": "2.1 Recording: AKSDB Covariate Discussion 20MAR2024 video1743264410",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html#attendees",
+    "href": "minutes-20MAR2024-covariates.html#attendees",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "2.2 Attendees",
+    "text": "2.2 Attendees\n\nColby Brungard, New Mexico State University\nNeal Pastick, USGS EROS\nJosh Minai, Argonne National Lab\nSabine Grunwald, University of Florida\nTravis Nauman, USDA-NRCS\nTimm Nawrocki, University of Alaska Anchorage\nMatt Macander, ABR\nFrancis Biles, USFS\nDave White, USDA-NRCS",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html#agenda",
+    "href": "minutes-20MAR2024-covariates.html#agenda",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "2.3 Agenda",
+    "text": "2.3 Agenda\n\nBrief introductions\nDiscussion on developing covariates for the Alaska Soil Data Bank project\n\nResolution: 10 meters vs. 30 meters\nData sources: IFSAR, ASTER, Copernicus, etc.\nTerrain derivatives\n\nPotential follow-on projects and their resolution requirements\nDecisions and action items",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html#discussion",
+    "href": "minutes-20MAR2024-covariates.html#discussion",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "2.4 Discussion",
+    "text": "2.4 Discussion\n\n2.4.1 Covariate Resolution\nColby Brungard led the discussion on developing covariates for the Alaska Soil Data Bank project. The current NRCS agreement states that the project will deliver statewide soil class predictions at 30-meter resolution. However, some team members are working on projects requiring 10-meter resolution data. The question is whether to develop covariates at 10 meters based on the resampled, harmonized 10-meter IFSAR data from Timm and Matt, which would set the stage for bringing in imagery at the same resolution, or to use 30-meter resolution for faster computing times and smaller file sizes.\nMatt Macander suggested starting with 30-meter resolution to work out any issues in the process and then consider producing both resolutions, as many terrain metrics can be averaged or aggregated from 10 to 30 meters. Sabine Grunwald noted that finer resolution does not necessarily mean better models, and it is a trade-off between computational time and perceived benefits.\n\n\n2.4.2 Data Sources\nTravis Nauman brought up the question of data sources, particularly the challenges with IFSAR data in densely vegetated areas. Alternative data sources such as Copernicus and ASTER were discussed. However, Timm Nawrocki and Francis Biles confirmed that despite its challenges, IFSAR is substantially better than any alternative providing holistic coverage for Alaska.\nFrancis Biles cautioned about the limitations of IFSAR in southeast Alaska and Kodiak Island, where vegetation removal and accuracy issues persist. Timm Nawrocki added that manual corrections would be needed for high-quality stream networks across the state, but IFSAR remains the best available option for full state coverage.\n\n\n2.4.3 Terrain Derivatives\nThe group agreed to move forward with IFSAR at a resampled, harmonized 10-meter resolution statewide. Colby Brungard has scripts to calculate 40-43 terrain covariates with different parameter settings, resulting in nearly 200 covariates. These include slope, curvature, potential incoming solar radiation, mass balance index, and wetness index.\n\n\n2.4.4 Follow-on Projects\nParticipants discussed their requirements for potential follow-on projects:\n\nJosh Minai: Currently using 30-meter resolution for mapping carbon stocks, nitrogen, and soil properties statewide due to data density considerations.\nNeal Pastick: The choice of resolution depends on the temporal resolution and the target variable (dynamic vs. static).\nMatt Macander: Targeting 10-meter resolution for statewide vegetation mapping to capture fine-scale patterns, while using 30-meter Landsat data for time series analysis.\nTimm Nawrocki: Having both a current 10-meter snapshot and a 30-year time series at 30-meter resolution would be beneficial.\nFrancis Biles: Having the option of both resolutions would be useful for USFS projects.",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html#decisions-and-action-items",
+    "href": "minutes-20MAR2024-covariates.html#decisions-and-action-items",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "2.5 Decisions and Action Items",
+    "text": "2.5 Decisions and Action Items\n\nDevelop terrain derivative covariates at 10-meter resolution using the resampled, harmonized IFSAR data for maximum flexibility and utility in scaling for future projects.\nNic: Create a comprehensive list of covariates, including terrain derivatives, imagery, and other data sources (e.g., Sentinel-1 and Sentinel-2), and share it with the group for input and collaboration opportunities.\nExplore options for making the covariate scripts and data publicly available, considering hosting solutions and long-term maintenance.\nDiscuss the integration of soil data, vegetation mapping, and photo databases to support future modeling efforts.",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
+  },
+  {
+    "objectID": "minutes-20MAR2024-covariates.html#next-steps",
+    "href": "minutes-20MAR2024-covariates.html#next-steps",
+    "title": "2  AKSDB Covariate Discussion Meeting Minutes 20MAR2024",
+    "section": "2.6 Next Steps",
+    "text": "2.6 Next Steps\n\nColby Brungard will proceed with generating terrain derivative covariates at 10-meter resolution.\nNic will generate a consolidated covariate catalog.\nThe team will investigate options for hosting and distributing covariate scripts and data, considering Google Cloud and other solutions.\nA follow-up discussion will be scheduled to address the integration of soil data, vegetation mapping, and photo databases.",
+    "crumbs": [
+      "Meeting Minutes",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AKSDB Covariate Discussion Meeting Minutes 20MAR2024</span>"
+    ]
   }
 ]
