@@ -1,0 +1,69 @@
+# AKSDB Team Meeting Minutes 12APR2024
+
+## Introductions
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+
+Nic Jelinski (University of Minnesota), Matt Macander (ABR, Fairbanks, Alaska), Sue Ives (ABR, Anchorage, Alaska), Timm Nawrocki (University of Alaska, Anchorage), Katrina Nelson (University of Minnesota), Irfan Ainuddin (University of Minnesota), Travis Nauman (National Soil Survey Center, Moab, Utah), Dave D'Amore (Forest Service Pacific Northwest Research Station, Juneau, Alaska)
+
+Recording is here: [**APR Meeting Recording GMT20240412 170406 Recording 1280x720**](https://youtu.be/X2lgwXbMWbY)
+
+## Project Updates
+
+### Action Items from March Meeting
+
+-   Sidebar discussion about covariates and covariate resolution was held on March 24th. Minutes, recording, and notes are available.
+-   Nic to follow up with Sue and Matt regarding private data sets and additional forms needed for data transfer.
+-   Travis uploaded a NASIS snapshot to the project Box folder. The tool used for this is now publicly accessible.
+-   Irfan requested a data table structure file and metadata for the NASIS snapshot. Travis to follow up on this.
+-   Nic to follow up with Jacquie regarding a shape file for soil/vegetation site descriptions.
+
+### Updates on Data Curation and Acquisition
+
+-   New data set received from Torre Jorgensen: Fort Wainwright Wetlands data, soil descriptions from 2013-2019.
+-   Data recovery efforts ongoing for Mark Clark's STATSGO pedons (\~50% complete) and geotech logs.
+-   Dave D'Amore provided a summary of the Southeast Alaska Research Project, including number of pedons and their status. Some data may be incomplete but will be shared for cross-referencing with the NASIS snapshot.
+-   Timm Nawrocki to provide additional BLM and other project data by mid-May.
+
+### Presentation to ESIP Soil Informatics Cluster
+
+-   Nic gave a presentation about the project to the Earth Science Information Partners (ESIP) Soil Informatics Cluster.
+-   The cluster brings together people working on international projects related to data synthesis and harmonization for soil.
+-   Interesting discussions and potential connections with other projects encountering similar issues.
+
+### Covariates and Terrain Derivatives Discussion
+
+-   Statewide seamless 10-meter resolution DEM/DSM from Timm and Matt will be used for terrain derivative covariates.
+-   Colby Brungard to generate scripts for developing \~40 derivatives at 10-meter resolution.
+-   Sentinel imagery (10-meter resolution) will likely be used for static mapping, with Landsat thermal data composite as an additional option.
+-   Matt and Timm have experience with Sentinel-1 and radiometric terrain normalization.
+-   Climate data sources discussed: SNAP, PRISM, ERA5-Land, and WorldClim. SNAP data seems to better capture elevational trends in Alaska.
+-   Nic to develop a comprehensive list of covariates and derivatives, and track progress on GitHub.
+-   Matt to contribute seasonality variables (e.g., snow/water frequency) derived from Sentinel data.
+
+### Upcoming Meetings and Field Season
+
+-   May meeting scheduled for May 10th.
+-   June, July, and August meetings may have lower attendance due to field work. Nic will send updates if meetings are canceled.
+-   Members encouraged to share updates or items for meeting minutes if unable to attend.
+
+### Computing Environment Discussion
+
+-   Private data requires use of University of Minnesota's supercomputing resources for seamless integration with GEMS.
+-   If only public data is used, cloud computing (e.g., AWS) could be an option for increased transparency.
+-   Hybrid approach possible: train models with private data on UMN servers, then implement them elsewhere using only public data.
+-   Long-term data storage and compute resources beyond the project's 2-3 year lifespan should be considered.
+-   Extracting coordinates from private data for covariate extraction outside UMN servers, then bringing results back for modeling, could help manage large raster datasets.
+
+### Action Items
+
+-   Nic to follow up with Sue and Matt regarding private data sets and additional forms needed for data transfer.
+-   Travis to follow up on providing a data table structure file and metadata for the NASIS snapshot.
+-   Nic to follow up with Jacquie regarding a shape file for soil/vegetation site descriptions.
+-   Nic to develop a comprehensive list of covariates and derivatives, and track progress on GitHub.
+-   Matt to contribute seasonality variables (e.g., snow/water frequency) derived from Sentinel data.
+-   Nic and Irfan to discuss potential scenarios for structuring the computing environment, considering the use of both private and public data.
+
+## Next Meeting
+
+The next meeting is scheduled for May 10th, 2024.

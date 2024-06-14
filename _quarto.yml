@@ -13,6 +13,7 @@ book:
     - index.qmd
     - part: meeting-minutes.qmd
       chapters:
+        - minutes-12APR2024.qmd
         - minutes-20MAR2024-covariates.qmd
         - minutes-08MAR2024.qmd
         - minutes-09FEB2024.qmd
