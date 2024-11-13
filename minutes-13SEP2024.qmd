@@ -1,0 +1,89 @@
+# AKSDB Team Meeting Minutes 13SEP2024
+
+## Attendees
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+- Denise Miller (NRCS)
+- Joshua Minai (ANL)
+- Sue Ives (ABR)
+- Timm Nawrocki (UAA)
+- Irfan Ainuddin (UMN)
+- Katrina Nelson (UMN)
+- Matt Macander (ABR)
+- Jacquie Foss (USFS)
+- Dave D'Amore (USFS)
+
+Recording is here: [**SEP Meeting Recording GMT20240913-183258_Recording_1760x900**](https://youtu.be/-ChA_Z9_AcQ)
+
+## Project Updates
+
+### Administrative Updates
+- No-cost extension period begins October 1st
+- Team continuing to compile and integrate data sources while transitioning to modeling phase
+- Project GitHub repositories being organized to support collaborative development
+
+### Data Acquisition and Management
+
+#### Borehole Data Integration
+- Katrina Nelson reported progress on digitizing geotechnical borehole logs:
+  - Working with data from 166 villages
+  - Completed full data entry for 352 out of 533 individual logs
+  - Focusing on Western Alaska land resource region (85 villages)
+  - Prioritizing Woodwell Climate Research Institute partner villages
+  - Data includes permafrost thickness and ice content information
+
+#### Forest Service Data
+- Jacquie Foss confirmed she will provide geodatabase with spatial data for soil/vegetation site descriptions
+- Data will be uploaded to shared Box folder
+
+#### UAA Data Status
+- Timm Nawrocki reported some BLM AIM data pending due to missing pH values
+- Team decided to wait for complete dataset with pH values before integration
+- Will continue working with BLM to locate missing data in Alaska State office database
+
+### Technical Progress
+
+#### Data Platform Development
+- Irf reported progress on data harmonization workflow:
+  - Successfully implemented data transfer between GEMS platform and MSI computing resources
+  - Developed hierarchical metadata dictionary system for querying different data types
+  - Created organization structure for soil data with project, study area, and site hierarchies
+  - Working on environment configuration issues in MSI platform
+
+#### Covariate Development
+- Imagery covariates completed and available on Google Cloud Storage bucket
+- Flow accumulation calculations approximately 50% complete
+- Using 10m resolution IFSAR DEM (harmonized by UAA team)
+- State divided into approximately 1000 tiles for processing
+
+### Modeling Strategy
+- Team decided to use pH as first test variable for workflow development due to:
+  - Wide availability across datasets
+  - Relatively straightforward harmonization
+- Soil classification modeling planned for later phase due to additional harmonization needs
+- Will likely subset NASIS data to post-1999 for initial classification work
+- Planning to test different resolutions (30m vs 60m) for final products
+
+## Action Items
+
+1. Nic to:
+   - Share project background materials with Denise Miller
+   - Follow up on data transfer agreement status
+   - Connect Tim and Josh regarding covariate access
+
+2. Irf to:
+   - Resolve MSI environment configuration issues
+   - Set up GitHub repository structure with submodules
+   - Continue developing modeling workflow
+
+3. Jacquie to:
+   - Upload Forest Service geodatabase to provided Box folder
+
+4. Timm to:
+   - Continue follow-up with BLM regarding pH data
+   - Complete flow accumulation calculations
+   - Double-check Google Cloud Storage permissions
+   
+## Next Meeting
+
+Next meeting will be October 11th, 2024

@@ -1,0 +1,107 @@
+# AKSDB Team Meeting Minutes 14JUN2024
+
+## Attendees
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+- Matt Macander (ABR)
+- Colby Brungard (NMSU)
+- Travis Nauman (NRCS)
+- Frances Biles (USFS)
+- Dave D'Amore (USFS)
+- Jacquie Foss (USFS)
+- Joshua Minai (ANL)
+
+Recording is here: [**JUN Meeting Recording GMT20240614 170424 Recording 1920x946**](https://youtu.be/hw-0h2waUxQ)
+
+## Project Updates
+
+### Administrative Updates
+
+- No-cost extension approval received, extending the project through September 30th, 2025
+  - Team agreed to treat May 2025 as an effective end date due to summer field season
+- All three semi-annual reports are now available in the reporting folder on GitHub
+  - First two reports were text entries in NRCS EasyFed grants portal
+  - Most recent April report was submitted as a PDF
+- Project GitHub page continues to be updated with meeting minutes and other documentation
+
+### Data Acquisition and Management
+
+#### New Data Status
+- No new data acquisition since April meeting
+- Ongoing work with USGS and AVA (Stefanie and Neil Pastick) regarding geotech logs
+- Private data transfer from AEA pending completion of data agreements
+  - Additional form required due to University of Minnesota system changes in March/April
+  - Data expected to be in similar format to previous ABR deliveries
+
+#### Southeast Alaska Data
+- Dave D'Amore reported second and third papers published on Southeast Alaska data
+- New pedons will be migrated to the database soon
+- Data can be provided in any format through the Box folder
+
+#### Forest Service Data
+- Follow-up needed with Jacquie regarding shape file for soil/vegetation site descriptions
+- Frances Biles to assist with follow-up by end of June/early July
+
+### Technical Progress
+
+#### Covariate Development
+- Colby Brungard reported progress on covariate processing:
+  - Using WhiteBox tools for hydrologic preprocessing
+  - Implemented pit removal and least-cost breach depression processing
+  - Alaska divided into 6 watersheds for processing
+  - Entire Yukon basin (all 3 parts) merged into one unit
+  - Processing expected to take approximately one month
+
+#### Imagery and Spectral Data
+- Decision made to use Sentinel imagery
+- Matt Macander reported on status:
+  - Current tiles available through summer 2022 on Google Cloud Storage
+  - Update in progress for more recent coverage
+  - Includes 5 seasonal windows during snow-free season for Sentinel-2
+  - Sentinel-1 includes 3 seasonal windows (summer, deep winter, fall)
+  - Team agreed to proceed with updates since modeling won't begin immediately
+
+### Timeline and Goals
+
+- Preliminary model runs and predictive maps targeted for end of August 2024
+  - Acknowledged as "extremely preliminary" but meant to demonstrate functional system
+- Data integration and preparation continuing through July
+- Mapping work targeting May 2025 completion
+- Planning to address data export and NASIS integration starting May 2025
+
+## Future Collaborations and Opportunities
+
+### Woodwell Climate Institute
+- Discussion of potential collaboration with Woodwell Climate Institute's Permafrost Pathways project
+- Project works with Western Alaska villages needing spatial data on soils and permafrost
+- Previous NSF proposal (CHIRP) not invited for full submission
+- Potential for postdoc position to support modeling work
+
+### AI Climate Institute
+- New USDA-funded AI institute at University of Minnesota
+- Focus includes land-atmosphere interactions in cold regions
+- Potential for collaboration on integrated numerical models
+- Opportunities for knowledge-guided machine learning approaches
+- Funded by USDA NIFA with additional partner agencies
+
+## Action Items
+
+1. Nic to:
+   - Complete University of Minnesota data transfer agreement process
+   - Create Google Sheet for tracking covariates (using personal account for broader access)
+   - Follow up with Jacquie/Frances regarding soil/vegetation site shape files
+   
+2. Matt and Tim to:
+   - Continue work on Sentinel imagery updates
+   - Plan process for moving spectral covariates into modeling environment
+
+3. Colby to:
+   - Continue processing terrain derivatives
+   - Expected completion in approximately one month
+
+4. Frances to:
+   - Follow up on Forest Service shape file by early July
+
+## Next Meeting
+
+Next meeting will be July 12th, 2024

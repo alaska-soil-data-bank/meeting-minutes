@@ -1,0 +1,112 @@
+# AKSDB Team Meeting Minutes 18OCT2024
+
+## Attendees
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+- Yijun Lin (UMN Computer Science)
+- Theresa Chen (UMN Computer Science)
+- Denise Miller (Alaska NRCS)
+- Joshua Minai (Argonne National Lab)
+- Neal Pastick (USGS)
+- Travis Nauman (USDA NRCS)
+- Jacquie Foss (USFS)
+- Suzann Kienast-Brown (NRCS National Soil Survey Center)
+- Colby Brungard (NMSU)
+- Sue Ives (ABR Anchorage)
+- Frances Biles (USFS)
+- Matt Macander (ABR)
+
+Recording is here: [**OCT Meeting Recording GMT20241018-183300_Recording_1920x1080**](https://youtu.be/-abKWyJbRg8)
+
+## Project Updates
+
+### Data Integration Progress
+
+#### NASIS Data Analysis
+- Analysis of recent NASIS snapshot shows significant improvement in data coverage:
+  - 34,661 total records with unique pedon ID
+  - 34,029 records have unique geometry (lat/long)
+  - Approximately double the number of pedon records compared to 2020 snapshot (~17,000)
+  - Comprehensive taxonomic classification analysis completed
+
+#### Taxonomic Classification
+- Analysis of soil orders and suborders completed
+- Notable findings:
+  - One unusual Oxisol pedon record near Homer (likely an error)
+  - Approximately 4,000 records without taxonomic classification
+- Special attention being paid to permafrost-affected soils and Gelisol classification
+  - Records from pre-1999 (before Gelisol order established) being reviewed
+  - Many older records have been reclassified in recent years
+
+#### Permafrost Depth and Thaw Depth Data Management
+- Discussion of permafrost table depth and thaw depth documentation:
+  - No standardized field in NASIS for permafrost/thaw depth
+  - Currently using F suffix and site notes for identification
+  - Following Neal Pastick's 2015 paper approach:
+    - Using presence/absence within one meter
+    - Filtering by observation date for maximum thaw depth
+    - Mid-July suggested as optimal observation time
+
+### Data Integration Efforts
+
+#### Forest Service Data Integration
+- Progress on matching Forest Service records with NASIS:
+  - Direct ID matching found ~200 matches
+  - Spatial joining (2m buffer) with fuzzy ID matching found ~2,500 matches
+  - Discussion of potentially reducing buffer to 5m based on previous studies
+
+#### Carbon Data Integration
+- Analysis of ISCN 3 (2022 snapshot) integration:
+  - 2,720 total records
+  - ~1,100-1,200 records overlap with NASIS or UAF archive
+  - Approximately 200 novel carbon records identified
+
+#### WOSIS Integration
+- 2,300 records in Alaska
+- High overlap with ISCN dataset
+- Only 10-20 novel points identified
+
+### Technical Progress
+
+#### Covariate Development
+- Colby Brungard reported on DEM derivatives:
+  - Final 3 HUC8 watersheds being processed
+  - Expected completion within 4 days
+  - Total dataset size estimated at 12.5 TB (compressed)
+  - Will be tiled following same pattern as spectral data
+
+#### Data Storage and Access
+- Successfully established secure data storage on Minnesota Supercomputing Institute platform
+- Public access options identified for sharing outputs
+- Ability to create publicly accessible storage buckets for sharing preliminary results
+
+## Timeline and Next Steps
+
+### Immediate Goals
+- Complete covariate processing and integration
+- Finalize data quality checks and taxonomic updates
+- Begin preliminary modeling runs by November
+
+### Focus Areas
+1. pH mapping (most data available)
+2. Carbon data integration (requires additional processing)
+3. Soil classification at order/suborder level
+
+## Action Items
+
+1. Nic to:
+   - Email identified team members by Monday for follow-up discussions
+   - Share meeting slides and update meeting minutes
+   - Connect with computer science team members next week
+
+2. Denise and Nic to:
+   - Consult with field staff about historical permafrost table and thaw depth documentation practices
+
+3. Colby to:
+   - Complete final HUC8 watershed processing
+   - Mosaic and tile DEM derivatives
+   - Upload processed data to shared bucket
+
+## Next Meeting
+
+The November meeting time will be shifted due to teaching conflicts. December meeting will remain at regular time.

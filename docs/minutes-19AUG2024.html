@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Alaska Soil Data Bank Project Meeting Minutes and Message Archive - 24&nbsp; AKSDB Team Meeting Minutes 14DEC2022</title>
+<title>Alaska Soil Data Bank Project Meeting Minutes and Message Archive - 4&nbsp; AKSDB Covariate Development Meeting Minutes 19AUG2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./minutes-24OCT2022.html" rel="next">
-<link href="./minutes-13JAN2023.html" rel="prev">
+<link href="./minutes-12JUL2024.html" rel="next">
+<link href="./minutes-13SEP2024.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-14DEC2022.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 14DEC2022</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-19AUG2024.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AKSDB Covariate Development Meeting Minutes 19AUG2024</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./minutes-19AUG2024.html" class="sidebar-item-text sidebar-link">
+  <a href="./minutes-19AUG2024.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AKSDB Covariate Development Meeting Minutes 19AUG2024</span></span></a>
   </div>
 </li>
@@ -255,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./minutes-14DEC2022.html" class="sidebar-item-text sidebar-link active">
+  <a href="./minutes-14DEC2022.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 14DEC2022</span></span></a>
   </div>
 </li>
@@ -408,20 +408,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#agenda-and-minutes" id="toc-agenda-and-minutes" class="nav-link active" data-scroll-target="#agenda-and-minutes"><span class="header-section-number">24.1</span> Agenda and Minutes:</a>
+  <li><a href="#recording-aug-covariate-meeting-recording-gmt20240819-170207_recording" id="toc-recording-aug-covariate-meeting-recording-gmt20240819-170207_recording" class="nav-link active" data-scroll-target="#recording-aug-covariate-meeting-recording-gmt20240819-170207_recording"><span class="header-section-number">4.1</span> Recording: <strong>AUG Covariate Meeting Recording GMT20240819-170207_Recording</strong></a></li>
+  <li><a href="#attendees" id="toc-attendees" class="nav-link" data-scroll-target="#attendees"><span class="header-section-number">4.2</span> Attendees</a></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda"><span class="header-section-number">4.3</span> Agenda</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">4.4</span> Discussion</a>
   <ul class="collapse">
-  <li><a href="#updates-on-action-items-from-previous-meeting" id="toc-updates-on-action-items-from-previous-meeting" class="nav-link" data-scroll-target="#updates-on-action-items-from-previous-meeting"><span class="header-section-number">24.1.1</span> Updates on action items from previous meeting</a></li>
-  <li><a href="#discussion-on-executing-deliverable-1" id="toc-discussion-on-executing-deliverable-1" class="nav-link" data-scroll-target="#discussion-on-executing-deliverable-1"><span class="header-section-number">24.1.2</span> Discussion on executing Deliverable #1:</a></li>
+  <li><a href="#google-cloud-storage-organization" id="toc-google-cloud-storage-organization" class="nav-link" data-scroll-target="#google-cloud-storage-organization"><span class="header-section-number">4.4.1</span> Google Cloud Storage Organization</a></li>
+  <li><a href="#flow-accumulation-and-dem-processing" id="toc-flow-accumulation-and-dem-processing" class="nav-link" data-scroll-target="#flow-accumulation-and-dem-processing"><span class="header-section-number">4.4.2</span> Flow Accumulation and DEM Processing</a></li>
+  <li><a href="#covariate-development-progress" id="toc-covariate-development-progress" class="nav-link" data-scroll-target="#covariate-development-progress"><span class="header-section-number">4.4.3</span> Covariate Development Progress</a></li>
+  <li><a href="#tiling-strategy-discussion" id="toc-tiling-strategy-discussion" class="nav-link" data-scroll-target="#tiling-strategy-discussion"><span class="header-section-number">4.4.4</span> Tiling Strategy Discussion</a></li>
   </ul></li>
+  <li><a href="#decisions-and-action-items" id="toc-decisions-and-action-items" class="nav-link" data-scroll-target="#decisions-and-action-items"><span class="header-section-number">4.5</span> Decisions and Action Items</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps"><span class="header-section-number">4.6</span> Next Steps</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-14DEC2022.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 14DEC2022</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./meeting-minutes.html">Meeting Minutes</a></li><li class="breadcrumb-item"><a href="./minutes-19AUG2024.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AKSDB Covariate Development Meeting Minutes 19AUG2024</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 14DEC2022</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AKSDB Covariate Development Meeting Minutes 19AUG2024</span></h1>
 </div>
 
 
@@ -438,64 +445,116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="agenda-and-minutes" class="level2" data-number="24.1">
-<h2 data-number="24.1" class="anchored" data-anchor-id="agenda-and-minutes"><span class="header-section-number">24.1</span> Agenda and Minutes:</h2>
-<section id="updates-on-action-items-from-previous-meeting" class="level3" data-number="24.1.1">
-<h3 data-number="24.1.1" class="anchored" data-anchor-id="updates-on-action-items-from-previous-meeting"><span class="header-section-number">24.1.1</span> Updates on action items from previous meeting</h3>
+<section id="recording-aug-covariate-meeting-recording-gmt20240819-170207_recording" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="recording-aug-covariate-meeting-recording-gmt20240819-170207_recording"><span class="header-section-number">4.1</span> Recording: <a href="https://youtu.be/1S7p2fjj2TE"><strong>AUG Covariate Meeting Recording GMT20240819-170207_Recording</strong></a></h2>
+</section>
+<section id="attendees" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="attendees"><span class="header-section-number">4.2</span> Attendees</h2>
+<ul>
+<li>Nic Jelinski, University of Minnesota</li>
+<li>Matt Macander, ABR</li>
+<li>Colby Brungard, New Mexico State University</li>
+<li>Irfan Ainuddin, UMN</li>
+<li>Timm Nawriocki (UAA)</li>
+</ul>
+</section>
+<section id="agenda" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="agenda"><span class="header-section-number">4.3</span> Agenda</h2>
 <ol type="1">
-<li>Add Sabine and Matt to NRCS AK 2026 Task Force Notifications/Team. - Colby contacted Suzanne K-B to request that Matt and Sabine be added. Next AK 2026 taskforce meeting is January 20th.</li>
-<li>Ensure subawards contracts are executed. ABR contract is now completed and ready for invoicing. NMSU and UFL subawards have been executed by UMN and sent to sponsored projects at each institution (Nic double checked).</li>
-<li>Schedule monthly recurring meetings – second Friday of each month (beginning January 13th) @ 9am AK, 11am Mountain, 12PM Central, 1PM Eastern. Will keep this schedule at least through May – then will re-evaluate for the field season and fall.</li>
+<li>Review of Google Cloud Storage bucket organization and contents</li>
+<li>Discussion of DEM derivatives and flow accumulation</li>
+<li>Review of covariate development progress</li>
+<li>Discussion of tiling strategy</li>
 </ol>
 </section>
-<section id="discussion-on-executing-deliverable-1" class="level3" data-number="24.1.2">
-<h3 data-number="24.1.2" class="anchored" data-anchor-id="discussion-on-executing-deliverable-1"><span class="header-section-number">24.1.2</span> Discussion on executing Deliverable #1:</h3>
-<ol type="1">
-<li><em>The Alaska Soil Data Bank (ASDB). We will acquire, curate, and centralize non-NRCS legacy data for the state of Alaska and stand up a database for continuing contributions on the G.E.M.S. platform of the University of Minnesota Supercomputing Institute. The ASDB will result in a harmonized dataset for use in digital soil mapping in Alaska and scripts will be written to export the data into a NASIS-readable format for ingestion.</em>
+<section id="discussion" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">4.4</span> Discussion</h2>
+<section id="google-cloud-storage-organization" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="google-cloud-storage-organization"><span class="header-section-number">4.4.1</span> Google Cloud Storage Organization</h3>
+<p>Matt Macander provided an overview of the bucket organization: - <strong>Sentinel Data</strong>: Contains Sentinel-1 and Sentinel-2 composites - Sentinel-2 composites cover 2019-2023 - Data organized in 5 seasonal windows (spring, early summer, midsummer, late summer, fall) - Tiled in 50km x 50km blocks using Alaska Albers projection - Fire disturbance effects noted in recent burn areas - <strong>Topography</strong>: Contains statewide 10-meter DEM - <strong>Covariates</strong>: Contains DEM derivatives and other analytical products</p>
+</section>
+<section id="flow-accumulation-and-dem-processing" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="flow-accumulation-and-dem-processing"><span class="header-section-number">4.4.2</span> Flow Accumulation and DEM Processing</h3>
+<p>Colby Brungard presented his approach to DEM processing and flow accumulation: - Processing by HUC-8 watersheds with 4km buffers - Trim back to remove edge effects while maintaining 250m overlap - Key challenges identified: - Artifacts in major river channels due to elevation data limitations - Issues with islands and river features in flow accumulation - Processing steps include: - Filling single-cell sinks - Least cost breaching algorithm with 100m buffer - Additional single-cell pit removal pass</p>
+</section>
+<section id="covariate-development-progress" class="level3" data-number="4.4.3">
+<h3 data-number="4.4.3" class="anchored" data-anchor-id="covariate-development-progress"><span class="header-section-number">4.4.3</span> Covariate Development Progress</h3>
+<p>Colby demonstrated numerous terrain derivatives being developed: 1. <strong>Terrain Ruggedness Indices</strong> - Calculated at 4, 16, and 32 pixel neighborhoods - Removed 2 and 8 pixel calculations as they didn’t capture useful patterns</p>
+<ol start="2" type="1">
+<li><strong>Topographic Position Index</strong>
 <ul>
-<li>Major action items:
-<ul>
-<li>Need to get Sabine, Matt and Colby set up as GEMS users.</li>
-<li>Nic needs to set up a new project team and workspace in GEMS – currently working with GEMS team to do this. GEMS has streamlined the user addition process now – one question that came up for partners – should we use one login per instutition? The answer is no – we should use individualized logins for every user because this is now further streamlined and can be attached to a specific Globus ID</li>
-<li>Once everyone is set up as users and our team is set up, Nic can pull everyone in to the project. I can add new users at any team once they are registered.</li>
+<li>Multiple scale calculations (4, 16, 32 pixels)</li>
 </ul></li>
-</ul></li>
-<li>General discussion regarding path forward on deliverable 1
+<li><strong>Wetness Indices</strong>
 <ul>
-<li>Agreed that we should move forward in January with reviewing 2 test datasets on the GEMS platform – for the January meeting, Nic will walk through data import, field metadata tagging, dataset or project metadata generation in GEMS, and scripting capabilities in the workspace.
-<ul>
-<li>We will look at Chien-Lu’s UAF pedon database and a snippet of the ABR legacy database</li>
+<li>Saga Wetness Index with different sections</li>
+<li>Stream Power Index</li>
 </ul></li>
-<li>Concurrently, we will begin drafting metadata architecture for the project. We will have should have this set prior to large scale data ingestion, and aim to have a first version of a full metadata document complete by May 2023 or before. Sabine will share the full metadata documentation for the Florida Soil Characterization Database.</li>
-</ul></li>
-<li>Some additional considerations for developing metadata architecture:
+<li><strong>Solar Radiation</strong>
 <ul>
-<li>Version control
-<ul>
-<li>Github? Or work on GEMS platform in JSON? - that may be limited so perhaps work on GitHub in JSON?</li>
-<li>Additionally, it may be easiest for our full project metadata to be in a more easily editable form – while dataset specific metadata can utilize the GEMS metadata creation tools, which generate JSON formatted metadata.</li>
+<li>Direct and diffuse radiation calculations</li>
+<li>Computed for solstices and monthly intervals</li>
+<li>24-hour integration periods</li>
 </ul></li>
-<li>Need to draft data conventions: decide how to handle missing data, missing values, etc etc. Were variables not assesed due to the sampling protocol or actually missing? Are missing fields null or zero values, etc</li>
-<li>Dealing with different coordinate systems.</li>
-<li>Ontologies/ controlled vocabularies for field metadata – we can create a controlled vocabulary/ontology that is specific to our project for appending field metadata. Nic would work with GEMS engineers to set this up.</li>
-</ul></li>
-<li>Some additional considerations for wrangling datasets
+<li><strong>Additional Metrics</strong>
 <ul>
-<li>What format? Text files? Database exchange
-<ul>
-<li>Nic’s first thought is we should work in csvs for most datasets. Although there is no restriction to file types in GEMS this would likely be the cleanest. Can look into database exchange options for the ABR database.</li>
-</ul></li>
-<li>Assigning unique IDs to all observations in datasets, checking for duplicates, etc
-<ul>
-<li>This is something that can be done in the workspace on GEMS – we need to think about site vs horizon level data – need to link with ID (ABR uses a project ID and a plot ID.<br>
-</li>
-<li>Colby has dealt with unique identifiers in combined datasets by appending the UTM coordinates to observations.</li>
-</ul></li>
+<li>Profile and plan curvature</li>
+<li>Positive and negative openness</li>
+<li>Vector ruggedness measure</li>
+<li>Height above channel network</li>
+<li>Valley depth</li>
+<li>Geomorphons</li>
 </ul></li>
 </ol>
-
-
 </section>
+<section id="tiling-strategy-discussion" class="level3" data-number="4.4.4">
+<h3 data-number="4.4.4" class="anchored" data-anchor-id="tiling-strategy-discussion"><span class="header-section-number">4.4.4</span> Tiling Strategy Discussion</h3>
+<ul>
+<li>Current sentinel data is tiled in 50km x 50km blocks</li>
+<li>Discussion of whether to tile DEM derivatives similarly</li>
+<li>Advantages of tiling identified:
+<ul>
+<li>Better RAM management for processing</li>
+<li>Enables parallel processing</li>
+<li>Consistent with existing data organization</li>
+</ul></li>
+<li>Decision to proceed with tiling approach, following Matt and Tim’s existing structure</li>
+</ul>
+</section>
+</section>
+<section id="decisions-and-action-items" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="decisions-and-action-items"><span class="header-section-number">4.5</span> Decisions and Action Items</h2>
+<ol type="1">
+<li>Colby will:
+<ul>
+<li>Mosaic and upload flow accumulation data as first test case</li>
+<li>Test tiling workflow on flow accumulation layer</li>
+<li>Continue developing remaining covariates</li>
+</ul></li>
+<li>Team will:
+<ul>
+<li>Compare flow accumulation results with existing water mask</li>
+<li>Review Tim’s wetness index approach</li>
+<li>Further discuss tiling strategy via email</li>
+</ul></li>
+<li>Nic will:
+<ul>
+<li>Obtain access to the Google Cloud bucket</li>
+<li>Create and distribute meeting minutes</li>
+<li>Follow up on email chain with action items</li>
+</ul></li>
+</ol>
+</section>
+<section id="next-steps" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="next-steps"><span class="header-section-number">4.6</span> Next Steps</h2>
+<ul>
+<li>Review flow accumulation results with water mask overlay</li>
+<li>Evaluate tiling workflow effectiveness</li>
+<li>Continue covariate development with regular updates</li>
+<li>Next regularly scheduled monthly meeting scheduled for September 13th, 2024</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -888,13 +947,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./minutes-13JAN2023.html" class="pagination-link" aria-label="AKSDB Team Meeting Minutes 13JAN2023">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 13JAN2023</span></span>
+      <a href="./minutes-13SEP2024.html" class="pagination-link" aria-label="AKSDB Team Meeting Minutes 13SEP2024">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 13SEP2024</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./minutes-24OCT2022.html" class="pagination-link" aria-label="AKSDB Team Meeting Minutes 24OCT2022">
-        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 24OCT2022</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./minutes-12JUL2024.html" class="pagination-link" aria-label="AKSDB Team Meeting Minutes 12JUL2024">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">AKSDB Team Meeting Minutes 12JUL2024</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

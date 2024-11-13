@@ -1,0 +1,113 @@
+# AKSDB Team Meeting Minutes 12JUL2024
+
+## Attendees
+
+The meeting was led by Nic Jelinski from the University of Minnesota. Other attendees included:
+- Matt Macander (ABR)
+- Dave D'Amore (USFS)
+- Irfan Ainuddin (UMN)
+- Ava McCune (UMN)
+- Katrina L Nelson (UMN)
+- Neal Pastick (USGS)
+- Joshua Minai (DOE) - joined late
+
+Recording is here: [**JUL Meeting Recording GMT20240712-170253_Recording_1798x900**](https://youtu.be/0ZtG1jaBCH8)
+
+## Project Updates
+
+### Administrative Updates
+
+- No meeting held in May due to field courses
+- No-cost extension confirmed through September 2025
+- Brief June meeting primarily focused on updates
+
+### Data Acquisition and Management
+
+#### Private Data Agreements
+- Three data sets pending legal agreements:
+  - Hillcorp data (awaiting final non-disclosure agreement)
+  - AEA and Conoco Phillips data sets (requiring additional U of M documentation)
+  - ABR will handle data transfer once agreements are finalized
+
+#### Geotech Log Digitization Progress
+- Substantial progress on digitizing geotech logs, particularly for Western Alaska
+- Focus on high-priority logs identified by Ava Stefani
+- Current work concentrated on Chevak area:
+  - 152 boreholes digitized
+  - Coverage includes airstrips and village areas
+  - Data includes permafrost characteristics and ice content information
+- Logs obtained from multiple sources (Thor, Sue) with minimal overlap
+- Data being organized with:
+  - Site-level data (dates, coordinates, depth, etc.)
+  - Morphology descriptions
+  - Lab data when available
+  - Data quality rankings for modeling usability
+
+#### New Field Data
+- June field campaign completed for Department of Energy project
+  - New carbon stock data collected to 2-3 meters depth
+  - Approximately 30-35 new observations near Galbraith Lake
+  - Includes ice content data
+- New data points forthcoming from Willow Project NPR-A
+
+#### Forest Service Data
+- Pending acquisition of shape file for soil/vegetation plots
+- Dave D'Amore to discuss with Frances
+- Previous data entry work completed by Ava
+
+### Technical Progress
+
+#### Data Harmonization
+- Irfan reported significant progress on metadata structure reorganization
+- Successfully tested integration of diverse data formats:
+  - ABR's relational database structure
+  - Individual researcher formats
+  - PING's archival flat file format
+  - Thor's dataset
+
+#### Covariate Development
+- Colby continuing work on terrain derivatives:
+  - Processing ~40 derivatives from 10-meter IFSar coverage
+  - Implementing hydrological connectivity fixes
+  - Using specialized tools for DEM conditioning
+
+### External Collaborations
+
+#### AI Climate Institute
+- Two 25% time computer science researchers joining in fall
+- Potential collaboration with USGS on numerical modeling
+- Planning August meeting with Neil to discuss priorities
+- Interest from Irfan in participating in AI Climate work
+
+#### Permafrost Pathways Project
+- Ongoing collaboration with Woodwell Climate Institute
+- Working with 5-7 YK Delta villages
+- New observations being collected by Sasha Kholodov and Sue
+- Data will help fill gaps in YK Delta soil observations
+
+## Action Items
+
+1. Nic to:
+   - Follow up on data sharing agreements with lawyers
+   - Connect with Jacquie/Frances regarding Forest Service shape files
+   - Schedule August meeting with Neil regarding AI Climate collaboration
+
+2. Dave to:
+   - Mention shape file need to Frances
+   - Continue discussion about hydro-conditioning approaches
+
+3. Katrina to:
+   - Continue geotech log digitization efforts
+   - Maintain documentation of data quality assessments
+
+4. Irfan to:
+   - Continue refinement of data harmonization workflow
+   - Prepare for test runs with random forest modeling on MSI platform
+
+## Next Meeting
+
+Next meeting scheduled for August 2024 (specific date TBD)
+
+## Notes
+- Meeting recording and full transcript available
+- Due to field season activities, attendance was limited but productive updates were shared

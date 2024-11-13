@@ -1,0 +1,97 @@
+# AKSDB Covariate Development Meeting Minutes 19AUG2024
+
+## Recording: [**AUG Covariate Meeting Recording GMT20240819-170207_Recording**](https://youtu.be/1S7p2fjj2TE)
+
+## Attendees
+- Nic Jelinski, University of Minnesota
+- Matt Macander, ABR
+- Colby Brungard, New Mexico State University
+- Irfan Ainuddin, UMN
+- Timm Nawriocki (UAA)
+
+## Agenda
+1. Review of Google Cloud Storage bucket organization and contents
+2. Discussion of DEM derivatives and flow accumulation
+3. Review of covariate development progress
+4. Discussion of tiling strategy
+
+## Discussion
+
+### Google Cloud Storage Organization
+Matt Macander provided an overview of the bucket organization:
+- **Sentinel Data**: Contains Sentinel-1 and Sentinel-2 composites
+  - Sentinel-2 composites cover 2019-2023
+  - Data organized in 5 seasonal windows (spring, early summer, midsummer, late summer, fall)
+  - Tiled in 50km x 50km blocks using Alaska Albers projection
+  - Fire disturbance effects noted in recent burn areas
+- **Topography**: Contains statewide 10-meter DEM
+- **Covariates**: Contains DEM derivatives and other analytical products
+
+### Flow Accumulation and DEM Processing
+Colby Brungard presented his approach to DEM processing and flow accumulation:
+- Processing by HUC-8 watersheds with 4km buffers
+- Trim back to remove edge effects while maintaining 250m overlap
+- Key challenges identified:
+  - Artifacts in major river channels due to elevation data limitations
+  - Issues with islands and river features in flow accumulation
+- Processing steps include:
+  - Filling single-cell sinks
+  - Least cost breaching algorithm with 100m buffer
+  - Additional single-cell pit removal pass
+
+### Covariate Development Progress
+Colby demonstrated numerous terrain derivatives being developed:
+1. **Terrain Ruggedness Indices**
+   - Calculated at 4, 16, and 32 pixel neighborhoods
+   - Removed 2 and 8 pixel calculations as they didn't capture useful patterns
+
+2. **Topographic Position Index**
+   - Multiple scale calculations (4, 16, 32 pixels)
+
+3. **Wetness Indices**
+   - Saga Wetness Index with different sections
+   - Stream Power Index
+
+4. **Solar Radiation**
+   - Direct and diffuse radiation calculations
+   - Computed for solstices and monthly intervals
+   - 24-hour integration periods
+
+5. **Additional Metrics**
+   - Profile and plan curvature
+   - Positive and negative openness
+   - Vector ruggedness measure
+   - Height above channel network
+   - Valley depth
+   - Geomorphons
+
+### Tiling Strategy Discussion
+- Current sentinel data is tiled in 50km x 50km blocks
+- Discussion of whether to tile DEM derivatives similarly
+- Advantages of tiling identified:
+  - Better RAM management for processing
+  - Enables parallel processing
+  - Consistent with existing data organization
+- Decision to proceed with tiling approach, following Matt and Tim's existing structure
+
+## Decisions and Action Items
+1. Colby will:
+   - Mosaic and upload flow accumulation data as first test case
+   - Test tiling workflow on flow accumulation layer
+   - Continue developing remaining covariates
+
+2. Team will:
+   - Compare flow accumulation results with existing water mask
+   - Review Tim's wetness index approach
+   - Further discuss tiling strategy via email
+
+3. Nic will:
+   - Obtain access to the Google Cloud bucket
+   - Create and distribute meeting minutes
+   - Follow up on email chain with action items
+
+## Next Steps
+- Review flow accumulation results with water mask overlay
+- Evaluate tiling workflow effectiveness
+- Continue covariate development with regular updates
+- Next regularly scheduled monthly meeting scheduled for September 13th, 2024
